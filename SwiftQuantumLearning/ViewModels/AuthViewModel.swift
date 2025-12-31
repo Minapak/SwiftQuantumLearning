@@ -30,7 +30,7 @@ class AuthViewModel: ObservableObject {
     init() {
         // 저장된 토큰 확인
         if apiClient.accessToken != nil {
-            isLoggedIn = true
+          //  isLoggedIn = true
         }
     }
     

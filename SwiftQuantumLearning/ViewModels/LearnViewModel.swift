@@ -224,30 +224,38 @@ class LearnViewModel: ObservableObject {
     // MARK: - Private Methods
     
     private func createTracksFromLevels() {
-        let beginnerLevels = LearningLevel.allLevels.filter { $0.track == .beginner }
-        let intermediateLevels = LearningLevel.allLevels.filter { $0.track == .intermediate }
-        let advancedLevels = LearningLevel.allLevels.filter { $0.track == .advanced }
-        
-        tracks = [
-            LearningTrack(
-                name: "Beginner",
-                description: "Start your quantum journey",
-                iconName: "star.fill",
-                levels: beginnerLevels
-            ),
-            LearningTrack(
-                name: "Intermediate",
-                description: "Build on the fundamentals",
-                iconName: "star.leadinghalf.filled",
-                levels: intermediateLevels
-            ),
-            LearningTrack(
-                name: "Advanced",
-                description: "Master quantum computing",
-                iconName: "star.circle.fill",
-                levels: advancedLevels
-            )
-        ]
+        // Use the new Quantum Curriculum Content from Localizable strings
+        tracks = QuantumCurriculumContent.allTracks.enumerated().map { index, track in
+            track.toLearningTrack(index: index)
+        }
+
+        // Fallback to old method if no tracks available
+        if tracks.isEmpty {
+            let beginnerLevels = LearningLevel.allLevels.filter { $0.track == .beginner }
+            let intermediateLevels = LearningLevel.allLevels.filter { $0.track == .intermediate }
+            let advancedLevels = LearningLevel.allLevels.filter { $0.track == .advanced }
+
+            tracks = [
+                LearningTrack(
+                    name: "Beginner",
+                    description: "Start your quantum journey",
+                    iconName: "star.fill",
+                    levels: beginnerLevels
+                ),
+                LearningTrack(
+                    name: "Intermediate",
+                    description: "Build on the fundamentals",
+                    iconName: "star.leadinghalf.filled",
+                    levels: intermediateLevels
+                ),
+                LearningTrack(
+                    name: "Advanced",
+                    description: "Master quantum computing",
+                    iconName: "star.circle.fill",
+                    levels: advancedLevels
+                )
+            ]
+        }
     }
     
     private func createTracksFromLocalData() {
@@ -257,6 +265,25 @@ class LearnViewModel: ObservableObject {
     // MARK: - Learning Strategy Generation
     
     private func generateMemoryTriggers(for level: LearningLevel) -> [MemoryTrigger] {
+        // Try to find corresponding curriculum lesson
+        for (trackIndex, track) in QuantumCurriculumContent.allTracks.enumerated() {
+            for lesson in track.lessons {
+                let lessonLevelId = (trackIndex + 1) * 100 + lesson.number
+                if lessonLevelId == level.id {
+                    return [
+                        MemoryTrigger(
+                            id: "\(lesson.id)_mnemonic",
+                            title: lesson.title,
+                            description: lesson.description,
+                            mnemonic: lesson.mnemonic,
+                            difficulty: lesson.difficulty
+                        )
+                    ]
+                }
+            }
+        }
+
+        // Fallback to original content
         switch level.id {
         case 1:
             return [

@@ -1,7 +1,7 @@
-/* 
+/*
  * Localizable.strings (English)
  * SwiftQuantum Learning App
- * 
+ *
  * 사용 방법:
  * Text("learn.title")  // "Learn"
  * NSLocalizedString("learn.title", comment: "")
@@ -170,3 +170,247 @@
 "error.invalidEmail" = "Invalid email format";
 "error.weakPassword" = "Password must be at least 6 characters";
 "error.passwordMismatch" = "Passwords do not match";
+
+// MARK: - Quantum Master Curriculum - Track Names
+"curriculum.track1.title" = "Quantum Computer Basics";
+"curriculum.track1.description" = "Perfect foundation starting from etymology";
+"curriculum.track2.title" = "Mysterious Properties of Quantum";
+"curriculum.track2.description" = "Superposition, Entanglement, Tunneling, Qubit";
+"curriculum.track3.title" = "How Quantum Computers Work";
+"curriculum.track3.description" = "Complete process from cryogenic cooling to measurement";
+"curriculum.track4.title" = "Types of Quantum Computers";
+"curriculum.track4.description" = "Comparison of Superconducting, Ion Trap, Photonic, Topological methods";
+"curriculum.track5.title" = "Current Development Status (2025-2026)";
+"curriculum.track5.description" = "Google, IBM's latest achievements and error correction";
+"curriculum.track6.title" = "Application Areas";
+"curriculum.track6.description" = "Four major applications: Pharmaceutical, Financial, Climate, Security";
+"curriculum.track7.title" = "Future Outlook (2025-2035)";
+"curriculum.track7.description" = "10-year roadmap and your role";
+"curriculum.track8.title" = "Detailed 2026 Outlook";
+"curriculum.track8.description" = "Hardware, Industry, Internet, Price Revolution";
+"curriculum.track9.title" = "Key Concepts and Keywords";
+"curriculum.track9.description" = "Trends, Glossary, Geopolitical Competition, Challenges";
+
+// MARK: - Track 1: Quantum Basics Lessons
+"lesson.basics1.1.title" = "What is Quantum? Starting from Etymology";
+"lesson.basics1.1.description" = "Completely understanding the meaning of the word Quantum";
+"lesson.basics1.1.content" = "Understanding Quantum through its meaning!\n\n**QUANTUM**\n- Latin: 'quantus' = 'how much'\n- Physics: 'minimum unit'\n- Meaning: An indivisible bundle of energy\n- Analogy: The smallest LEGO block\n\n**Key Point**: Deals with the world of very small things like atoms and light";
+"lesson.basics1.1.mnemonic" = "Q = Quanta = Quantized = Can't be divided smaller";
+"lesson.basics1.1.difficulty" = "Very Easy";
+
+"lesson.basics1.2.title" = "What is a Computer? Understanding Computing Machines";
+"lesson.basics1.2.description" = "Knowing exactly what a regular computer is";
+"lesson.basics1.2.content" = "Understanding what a Computer means!\n\n**COMPUTER**\n- Latin: 'computare' = 'to calculate together'\n- com- (together) + putare (to calculate)\n- Meaning: A calculating machine\n\n**Principles of Regular Computers**:\n- Only thinks in 0s and 1s (On/Off)\n- Does one thing at a time\n- Very fast but sequential";
+"lesson.basics1.2.mnemonic" = "Computer = Calculate + Together = Computing machine";
+"lesson.basics1.2.difficulty" = "Very Easy";
+
+"lesson.basics1.3.title" = "What is a Quantum Computer?";
+"lesson.basics1.3.description" = "Definition: A supercomputer using the magic of atoms";
+"lesson.basics1.3.content" = "**Quantum Computer Definition**:\nA future supercomputer that performs numerous calculations simultaneously using the mysterious properties of quantum (superposition, entanglement)\n\n**Key Difference**: Uses quantum properties like superposition and entanglement that regular computers can't utilize";
+"lesson.basics1.3.mnemonic" = "Quantum + Computer = Atomic magic supercomputer";
+"lesson.basics1.3.difficulty" = "Easy";
+
+"lesson.basics1.4.title" = "What's Different? Complete Comparison";
+"lesson.basics1.4.description" = "5 key differences between regular and quantum computers";
+"lesson.basics1.4.content" = "**5 Key Differences**:\n\n1. Basic Unit: Bit (0 or 1) vs Qubit (0 and 1 simultaneously)\n2. Processing: Sequential (one at a time) vs Parallel (simultaneous)\n3. Temperature: Room temp (20°C) vs Absolute zero (-273°C)\n4. Size: Desktop vs Room-sized\n5. Error Rate: Almost none vs Still high (being improved)";
+"lesson.basics1.4.mnemonic" = "BITS = Basic, Individual, Traditional, Sequential";
+"lesson.basics1.4.difficulty" = "Easy";
+
+// MARK: - Track 2: Quantum Principles
+"lesson.principles2.1.title" = "Superposition - Multiple States Simultaneously!";
+"lesson.principles2.1.description" = "From Schrödinger's cat to quantum coins";
+"lesson.principles2.1.content" = "**Superposition: Being in multiple states at once!**\n\nRegular Coin:\n- Heads OR Tails (only one)\n\nQuantum Coin:\n- Heads AND Tails at the same time!\n- Exists as both until observed\n- Determined to one state the moment observed\n\n**Schrödinger's Cat**: The cat in the box is alive AND dead at the same time (until observed)";
+"lesson.principles2.1.mnemonic" = "SUPER = Simultaneous Unified Probability Exists Randomly";
+"lesson.principles2.1.difficulty" = "Easy";
+
+"lesson.principles2.2.title" = "Entanglement - Twin Telepathy";
+"lesson.principles2.2.description" = "The mystery of instant connection regardless of distance";
+"lesson.principles2.2.content" = "**Entanglement: Inseparably connected particles**\n\nQuantum Entangled Twins:\n- Particle A in Seoul\n- Particle B in Busan (1000km away)\n- If A rotates right → B instantly rotates left!\n\n**Amazing Facts**:\n- Faster than light! (Instant!)\n- Connected without signals\n- Einstein called it 'spooky action at a distance'";
+"lesson.principles2.2.mnemonic" = "Entangled = Einstein's 'spooky' connection";
+"lesson.principles2.2.difficulty" = "Easy";
+
+"lesson.principles2.3.title" = "Quantum Tunneling - Passing Through Walls!";
+"lesson.principles2.3.description" = "The magic of passing through even when you can't climb over the mountain";
+"lesson.principles2.3.content" = "**Tunneling: Passing through barriers without enough energy**\n\nReal World:\n- Can't pass through a wall = bounces back\n\nQuantum World:\n- Not enough energy to cross... but\n- Appeared on the other side! (Probabilistically)\n\n**Applications**: Nuclear fusion (why the Sun shines), Flash memory, Radioactive decay";
+"lesson.principles2.3.mnemonic" = "Tunnel Through = T.T. = Totally Transcends barriers";
+"lesson.principles2.3.difficulty" = "Medium";
+
+"lesson.principles2.4.title" = "Qubit - The Unit of Quantum Information";
+"lesson.principles2.4.description" = "Complete comparison of Bit and Qubit";
+"lesson.principles2.4.content" = "**Bit vs Qubit**\n\nRegular Bit:\n- 0 OR 1 (two states)\n- Fixed expression\n\nQubit:\n- |0⟩ AND |1⟩ simultaneously (superposition)\n- α|0⟩ + β|1⟩\n\n**Power**:\n- 1 Qubit = 2 states simultaneously\n- 10 Qubits = 1024 states simultaneously\n- 100 Qubits = 1.27 × 10³⁰ states simultaneously!";
+"lesson.principles2.4.mnemonic" = "Qubit = Quantum + Bit = Both 0 AND 1";
+"lesson.principles2.4.difficulty" = "Medium";
+
+// MARK: - Track 3: Quantum Operation
+"lesson.operation3.1.title" = "Cryogenic Cooling - Keeping Atoms Quiet";
+"lesson.operation3.1.description" = "-273°C, Why near absolute zero is needed";
+"lesson.operation3.1.content" = "**Why So Cold?**\n\n3 Reasons:\n1. Stop atomic vibration: Warm = atoms shake, Cold = atoms stop\n2. Protect quantum states: Heat = noise = destroys quantum states\n3. Remove noise: Room temp: noise >> signal (impossible). Cryogenic: signal >> noise (possible!)\n\n**Cooling Methods**: Liquid helium (4.2K), Dilution refrigerator (10mK)";
+"lesson.operation3.1.mnemonic" = "Cold = Calm quantum states";
+"lesson.operation3.1.difficulty" = "Medium";
+
+"lesson.operation3.2.title" = "Qubit Initialization - Getting Ready";
+"lesson.operation3.2.description" = "Preparing all qubits before calculation";
+"lesson.operation3.2.content" = "**Initialization Process**:\n1. Qubits in random states → messy\n2. Apply initialization pulse\n3. All qubits align to |0⟩ state\n4. Ready to start calculation!\n\n**Methods by Type**:\n- Superconducting: Microwave pulse forces |0⟩\n- Ion Trap: Laser cools to ground state";
+"lesson.operation3.2.mnemonic" = "Initialize = All qubits start at |0⟩";
+"lesson.operation3.2.difficulty" = "Medium";
+
+"lesson.operation3.3.title" = "Quantum Gates - Making Them Dance";
+"lesson.operation3.3.description" = "Understanding Pauli, Hadamard, CNOT gates";
+"lesson.operation3.3.content" = "**4 Basic Gates**:\n\n1. Pauli-X (NOT): |0⟩ → |1⟩, |1⟩ → |0⟩ (flip)\n2. Hadamard (H): |0⟩ → superposition (creates superposition!)\n3. CNOT: If control is |1⟩, flip target (creates entanglement!)\n4. Phase: Changes the phase of |1⟩\n\n**Circuit**: Initial → [H] → [X] → [CNOT] → ... → [Measure]";
+"lesson.operation3.3.mnemonic" = "H.X.C.P. = Hadamard, X-flip, Control-NOT, Phase";
+"lesson.operation3.3.difficulty" = "Hard";
+
+"lesson.operation3.4.title" = "Measurement & Result Interpretation";
+"lesson.operation3.4.description" = "How do we check the answer? Probability-based reading";
+"lesson.operation3.4.content" = "**Measurement Process**:\n- Before: (|0⟩ + |1⟩)/√2 (both!)\n- Moment of measurement: State collapse!\n- After: |0⟩ OR |1⟩ (one!)\n\n**Probabilistic Reading**:\n- 1 run: random result\n- 1000 runs: ~500 |0⟩, ~500 |1⟩\n- 10000 runs: more accurate probability distribution";
+"lesson.operation3.4.mnemonic" = "Measure = Multiple runs reveal probabilities";
+"lesson.operation3.4.difficulty" = "Medium";
+
+// MARK: - Track 4: Quantum Types
+"lesson.types4.1.title" = "Superconducting - IBM, Google";
+"lesson.types4.1.description" = "Principles, pros, and cons of the most widely used method";
+"lesson.types4.1.content" = "**Superconducting Qubits**\n\nPrinciple: Superconducting ring at extreme cold\n- Clockwise magnetic flow = |0⟩\n- Counter-clockwise = |1⟩\n\nPros: Very fast (nanoseconds), Mature technology, Scalable\nCons: Extreme cold needed (-269°C), High error rate, Short coherence time\n\nCompanies: IBM, Google, Rigetti";
+"lesson.types4.1.mnemonic" = "Super-cold = Super-conducting = Super-fast";
+"lesson.types4.1.difficulty" = "Medium";
+
+"lesson.types4.2.title" = "Ion Trap - IonQ, Honeywell";
+"lesson.types4.2.description" = "High accuracy but slower method";
+"lesson.types4.2.content" = "**Ion Trap Qubits**\n\nPrinciple: Laser-controlled trapped ions\n- Ground state = |0⟩\n- Excited state = |1⟩\n\nPros: Very high accuracy (~99.9%), Long coherence time (minutes), Perfect uniformity\nCons: Very slow (microseconds), Hard to scale, Expensive\n\nCompanies: IonQ, Honeywell/Quantinuum";
+"lesson.types4.2.mnemonic" = "Ion = Incredibly accurate but slow";
+"lesson.types4.2.difficulty" = "Medium";
+
+"lesson.types4.3.title" = "Photonic - Xanadu, PsiQuantum";
+"lesson.types4.3.description" = "Innovative method using light";
+"lesson.types4.3.content" = "**Photonic Qubits**\n\nPrinciple: Using properties of light particles\n- Horizontal polarization = |0⟩\n- Vertical polarization = |1⟩\n\nPros: Room temperature operation!, Low decoherence, Good for communication\nCons: Hard to measure (60-80% loss), Hard to control, Still early stage\n\nCompanies: Xanadu, PsiQuantum";
+"lesson.types4.3.mnemonic" = "Photon = Light = No cooling needed";
+"lesson.types4.3.difficulty" = "Hard";
+
+"lesson.types4.4.title" = "Topological - Microsoft Research";
+"lesson.types4.4.description" = "Auto-error correction through topological protection";
+"lesson.types4.4.content" = "**Topological Qubits**\n\nPrinciple: Using Majorana fermions\n- Topologically protected states\n- Automatically ignores small errors!\n\nPros: Auto error correction!, High theoretical accuracy, Efficient scaling\nCons: Not yet proven, Still needs extreme cold, Most basic stage\n\nCompanies: Microsoft (research), QuTech";
+"lesson.types4.4.mnemonic" = "Topology = Doughnut shape = Protected state";
+"lesson.types4.4.difficulty" = "Very Hard";
+
+// MARK: - Track 5: Current Status
+"lesson.status5.1.title" = "Google Willow Chip - 2024 Breakthrough";
+"lesson.status5.1.description" = "100 qubits achieved and error rate halved";
+"lesson.status5.1.content" = "**Willow Chip Achievements (2024)**:\n\n1. 100+ Qubits: Double from Sycamore's 53\n2. Error Rate Halved: ~1% → ~0.5% (breakthrough!)\n3. Quantum Supremacy Re-proven: More realistic problems\n\n**Meaning**: 'When' not 'If' quantum computers will be practical";
+"lesson.status5.1.mnemonic" = "Willow = Wins with Lower errors";
+"lesson.status5.1.difficulty" = "Medium";
+
+"lesson.status5.2.title" = "IBM's Ambitious Plans";
+"lesson.status5.2.description" = "Flamingo (1,386 qubits), Kookaburra (4,158 qubits)";
+"lesson.status5.2.content" = "**IBM Roadmap**:\n\nFlamingo (2024-2025):\n- 1,386 physical qubits\n- 20x expansion from Hummingbird\n\nKookaburra (2026):\n- 4,158 qubits per chip\n- 3 chips connected = 12,474 qubits!\n- First quantum networking attempt";
+"lesson.status5.2.mnemonic" = "IBM Birds = Bigger qubits each year";
+"lesson.status5.2.difficulty" = "Medium";
+
+"lesson.status5.3.title" = "Error Correction - Key to Practicality";
+"lesson.status5.3.description" = "What 1% → 0.1% error rate reduction means";
+"lesson.status5.3.content" = "**Error Rate Progress**:\n\n2019: ~1% (1 error per 100 operations)\n2024: ~0.5% (breakthrough!)\n2025 Goal: ~0.1% (practical level?)\n\n**Error Correction Threshold**: ~1%\n- Below this: error correction becomes possible!\n- Current: Near threshold!\n- Goal: Clearly below";
+"lesson.status5.3.mnemonic" = "Error down = Applications up";
+"lesson.status5.3.difficulty" = "Hard";
+
+"lesson.status5.4.title" = "Why Money is Flowing - Investment Status";
+"lesson.status5.4.description" = "2024: $1.5B, Expected 2025: $2B+ investment";
+"lesson.status5.4.content" = "**Global Investment**:\n\n2023: $1B\n2024: $1.5B (50% increase)\n2025 Expected: $2B+ (33% growth)\n\n**By Country**:\n- USA: $1B+ (Google, IBM, IonQ)\n- China: $800M+ (government-led)\n- EU: $500M (Quantum Flagship)\n- Japan: $700M+ (METI program)\n- Korea: $300M (K-Quantum)";
+"lesson.status5.4.mnemonic" = "Investment surge = Technology is viable";
+"lesson.status5.4.difficulty" = "Medium";
+
+// MARK: - Track 6: Applications
+"lesson.apps6.1.title" = "Pharmaceutical Revolution - Drug Development 2x Faster";
+"lesson.apps6.1.description" = "Protein folding simulation: 10 years → 2 years";
+"lesson.apps6.1.content" = "**Pharmaceutical Applications**:\n\nCurrent: 10+ years, $1B cost\n- Protein 3D structure? Almost impossible to calculate\n- Drug interactions? Too complex\n\nWith Quantum:\n- Simulate all possibilities simultaneously\n- Development: 10 years → 2 years\n- Cost: $1B → $100M\n\nPartners: Roche, Merck";
+"lesson.apps6.1.mnemonic" = "Pharma + Quantum = Faster cures";
+"lesson.apps6.1.difficulty" = "Hard";
+
+"lesson.apps6.2.title" = "Future of Finance - Portfolio Optimization";
+"lesson.apps6.2.description" = "Risk calculation 1000x faster";
+"lesson.apps6.2.content" = "**Financial Applications**:\n\nCurrent: Only approximations possible\n- Portfolio optimization? Limited\n- Fraud detection? Pattern-based only\n\nWith Quantum:\n- Consider all variables simultaneously\n- Real-time optimization possible\n- Fraud detection: Near 100% accuracy\n\nPartner: JP Morgan";
+"lesson.apps6.2.mnemonic" = "Finance + Quantum = Better predictions";
+"lesson.apps6.2.difficulty" = "Hard";
+
+"lesson.apps6.3.title" = "Climate Prediction - Accuracy 70% → 95%";
+"lesson.apps6.3.description" = "Prediction period: 1 week → 1 month";
+"lesson.apps6.3.content" = "**Climate Applications**:\n\nCurrent: 1 week accuracy limit\n- Too many climate variables\n- Supercomputers limited to 1 week\n\nWith Quantum:\n- 1 month+ accurate prediction\n- Typhoon path: 99.9% accuracy\n- Fine dust: Hourly accurate prediction";
+"lesson.apps6.3.mnemonic" = "Climate + Quantum = Longer forecasts";
+"lesson.apps6.3.difficulty" = "Hard";
+
+"lesson.apps6.4.title" = "Security Threat & Solution - Post-Quantum Cryptography";
+"lesson.apps6.4.description" = "Current encryption neutralized within 10 years, new methods needed";
+"lesson.apps6.4.content" = "**Security Implications**:\n\nThreat: RSA-2048 breakable\n- Current encryption vulnerable\n- Banks, governments, personal data at risk\n\nSolution: Post-Quantum Cryptography\n- New algorithms resistant to quantum attacks\n- NIST standardization in progress\n- Migration needed before quantum computers mature";
+"lesson.apps6.4.mnemonic" = "Post-Quantum = Prepared for the future";
+"lesson.apps6.4.difficulty" = "Very Hard";
+
+// MARK: - Track 7: Future Outlook
+"lesson.future7.1.title" = "10-Year Roadmap: 2025-2035 Forecast";
+"lesson.future7.1.description" = "Early commercialization → Growth → Maturity";
+"lesson.future7.1.content" = "**Roadmap**:\n\nPhase 1 (2025-2027): Early Commercialization\n- Error rate improvement\n- First commercial applications\n\nPhase 2 (2028-2030): Growth\n- 100+ logical qubits\n- Multiple industry applications\n\nPhase 3 (2031-2035): Maturity\n- 1000+ logical qubits\n- Everyday applications";
+"lesson.future7.1.mnemonic" = "2025-2035: From lab to life";
+"lesson.future7.1.difficulty" = "Hard";
+
+"lesson.future7.2.title" = "Talent Shortage Opportunity - 250K Needed by 2030";
+"lesson.future7.2.description" = "Only 1 expert for every 3 job openings";
+"lesson.future7.2.content" = "**Talent Gap**:\n\nDemand by 2030: 250,000 professionals\nCurrent supply: Severe shortage\nRatio: 3 jobs per 1 qualified candidate\n\n**Opportunity**:\n- Learning now = advantage later\n- Early expertise = career opportunities\n- Cross-disciplinary skills valued";
+"lesson.future7.2.mnemonic" = "Learn now = Lead later";
+"lesson.future7.2.difficulty" = "Medium";
+
+"lesson.future7.3.title" = "2026 - Year of Practicality";
+"lesson.future7.3.description" = "The transition from lab to real life";
+"lesson.future7.3.content" = "**2026 Expectations**:\n\n- 100+ companies using quantum\n- First quantum-discovered drug in clinical trials?\n- Quantum internet infrastructure beginning\n- Hardware size reduction\n- Price drop: $10M → $1M";
+"lesson.future7.3.mnemonic" = "2026 = Quantum goes practical";
+"lesson.future7.3.difficulty" = "Hard";
+
+"lesson.future7.4.title" = "Why You Can Be Part of the Quantum Revolution";
+"lesson.future7.4.description" = "Learning now = Best opportunity 2026-2030";
+"lesson.future7.4.content" = "**Your Opportunity**:\n\nWhy Now?:\n- Technology at inflection point\n- Talent shortage imminent\n- Early movers advantage\n\nWhat to Do:\n- Learn fundamentals (this course!)\n- Follow developments\n- Build skills progressively\n\nResult: Be ready when quantum goes mainstream";
+"lesson.future7.4.mnemonic" = "Start today = Lead tomorrow";
+"lesson.future7.4.difficulty" = "Medium";
+
+// MARK: - Track 8: 2026 Detailed
+"lesson.detailed8.1.title" = "Hardware Revolution - IBM, Google Ambitions";
+"lesson.detailed8.1.description" = "Condor 5,000 qubits, Willow 2.0 500 logical qubits";
+"lesson.detailed8.1.content" = "**Hardware Goals 2026**:\n\nIBM Condor:\n- 5,000 physical qubits\n- Connected systems: 12,000+\n\nGoogle Willow 2.0:\n- 500 logical qubits\n- Improved error correction\n\nSize Reduction:\n- Room-sized → Cabinet-sized?\n- Cooling efficiency improved";
+"lesson.detailed8.1.mnemonic" = "2026 Hardware = Bigger AND smaller";
+"lesson.detailed8.1.difficulty" = "Hard";
+
+"lesson.detailed8.2.title" = "Industry Practicality Begins - First Quantum Drug Clinical Trial";
+"lesson.detailed8.2.description" = "Pharmaceutical, Financial, Automotive real usage begins";
+"lesson.detailed8.2.content" = "**Industry Applications 2026**:\n\nPharmaceutical:\n- First quantum-designed drug in clinical trials\n\nFinancial:\n- Real-time trading optimization\n\nAutomotive:\n- Battery material discovery\n\nChemistry:\n- New catalyst design";
+"lesson.detailed8.2.mnemonic" = "2026 = Quantum at work";
+"lesson.detailed8.2.difficulty" = "Hard";
+
+"lesson.detailed8.3.title" = "Quantum Internet Era Begins";
+"lesson.detailed8.3.description" = "Building an absolutely secure communication network";
+"lesson.detailed8.3.content" = "**Quantum Internet 2026**:\n\nFeatures:\n- Unhackable communication\n- Uses quantum entanglement\n- Any eavesdropping detectable\n\nProgress:\n- 2000km networks tested (China)\n- 5+ countries building infrastructure\n- Financial institutions first adopters";
+"lesson.detailed8.3.mnemonic" = "Quantum Internet = Totally secure";
+"lesson.detailed8.3.difficulty" = "Hard";
+
+"lesson.detailed8.4.title" = "Price Revolution - 90% Price Drop";
+"lesson.detailed8.4.description" = "$10M → $1M (KRW 13B → 1.3B)";
+"lesson.detailed8.4.content" = "**Price Evolution**:\n\n2024: ~$10M per system\n2026: ~$1M per system (90% drop!)\n\nCloud Access:\n- Even cheaper via cloud\n- Pay-per-use models\n- Democratized access\n\nImpact:\n- More companies can afford\n- Faster adoption\n- More innovation";
+"lesson.detailed8.4.mnemonic" = "90% cheaper = 10x more users";
+"lesson.detailed8.4.difficulty" = "Medium";
+
+// MARK: - Track 9: Keywords
+"lesson.keywords9.1.title" = "8 Hot Keywords - Must Know for 2025";
+"lesson.keywords9.1.description" = "Quantum Advantage, NISQ, Error Correction, etc.";
+"lesson.keywords9.1.content" = "**8 Essential Keywords**:\n\n1. Quantum Advantage: When quantum beats classical\n2. NISQ: Noisy Intermediate-Scale Quantum\n3. Error Correction: Fixing quantum errors\n4. Logical Qubit: Error-corrected qubit\n5. Coherence Time: How long quantum state lasts\n6. Decoherence: Loss of quantum state\n7. Quantum Volume: Performance metric\n8. Fidelity: Operation accuracy";
+"lesson.keywords9.1.mnemonic" = "Q-NELCDFQ = Essential quantum vocabulary";
+"lesson.keywords9.1.difficulty" = "Medium";
+
+"lesson.keywords9.2.title" = "Essential Glossary - Coherence to Annealing";
+"lesson.keywords9.2.description" = "Complete organization of quantum concepts in English";
+"lesson.keywords9.2.content" = "**Key Terms**:\n\nCoherence: Maintaining quantum state\nAnnealing: Optimization via tunneling\nSuperposition: Multiple states at once\nEntanglement: Non-local correlation\nQubit: Quantum bit\nGate: Quantum operation\nMeasurement: State collapse and readout";
+"lesson.keywords9.2.mnemonic" = "CASEQGM = Complete quantum vocabulary";
+"lesson.keywords9.2.difficulty" = "Medium";
+
+"lesson.keywords9.3.title" = "Global Quantum Competition - USA, China, EU, Japan, Korea";
+"lesson.keywords9.3.description" = "2026 Quantum power rankings and strategies";
+"lesson.keywords9.3.content" = "**Country Strategies**:\n\nUSA: Private sector leadership, Google/IBM/IonQ\nChina: Government-led massive investment\nEU: Research focus, Quantum Flagship\nJapan: Long-term METI program\nKorea: Growing K-Quantum initiative\n\nRanking 2025:\n1. USA 2. China 3. EU 4. Japan 5. Korea";
+"lesson.keywords9.3.mnemonic" = "US-China race, others catching up";
+"lesson.keywords9.3.difficulty" = "Hard";
+
+"lesson.keywords9.4.title" = "2026 Risks and Challenges - 5 Things to Solve";
+"lesson.keywords9.4.description" = "Quantum Divide, Energy, Talent Shortage, etc.";
+"lesson.keywords9.4.content" = "**5 Key Challenges**:\n\n1. Quantum Divide: Rich vs poor access gap\n2. Energy: High power consumption for cooling\n3. Talent: Severe shortage of experts\n4. Security: Encryption vulnerability\n5. Ethics: Potential misuse concerns\n\nOpportunities: Each challenge = business opportunity";
+"lesson.keywords9.4.mnemonic" = "QETES = Quantum's challenges to solve";

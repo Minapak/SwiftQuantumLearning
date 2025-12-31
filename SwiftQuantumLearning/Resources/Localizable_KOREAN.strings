@@ -1,7 +1,7 @@
-/* 
+/*
  * Localizable.strings (Korean)
  * SwiftQuantum Learning App
- * 
+ *
  * 사용 방법:
  * Text("learn.title")  // "학습"
  * NSLocalizedString("learn.title", comment: "")
@@ -170,3 +170,247 @@
 "error.invalidEmail" = "유효하지 않은 이메일 형식";
 "error.weakPassword" = "비밀번호는 최소 6자 이상이어야 합니다";
 "error.passwordMismatch" = "비밀번호가 일치하지 않습니다";
+
+// MARK: - Quantum Master Curriculum - Track Names
+"curriculum.track1.title" = "양자컴퓨터 기초";
+"curriculum.track1.description" = "어원부터 시작하는 완벽한 기초";
+"curriculum.track2.title" = "양자의 신비한 성질";
+"curriculum.track2.description" = "Superposition, Entanglement, Tunneling, Qubit";
+"curriculum.track3.title" = "양자컴퓨터 작동 원리";
+"curriculum.track3.description" = "극저온부터 측정까지 완전한 프로세스";
+"curriculum.track4.title" = "양자컴퓨터 종류";
+"curriculum.track4.description" = "초전도, 이온, 광자, 위상 방식 비교";
+"curriculum.track5.title" = "현재 발전 상황 (2025-2026)";
+"curriculum.track5.description" = "Google, IBM의 최신 성과와 에러 수정";
+"curriculum.track6.title" = "응용 분야";
+"curriculum.track6.description" = "제약, 금융, 기후, 보안 4대 응용";
+"curriculum.track7.title" = "미래 전망 (2025-2035)";
+"curriculum.track7.description" = "10년 로드맵과 당신의 역할";
+"curriculum.track8.title" = "2026년 구체적 전망";
+"curriculum.track8.description" = "하드웨어, 산업, 인터넷, 가격 혁명";
+"curriculum.track9.title" = "핵심 개념과 키워드";
+"curriculum.track9.description" = "트렌드, 용어사전, 국가경쟁, 과제";
+
+// MARK: - Track 1: 양자컴퓨터 기초 레슨
+"lesson.basics1.1.title" = "Quantum이란? 어원부터 시작하기";
+"lesson.basics1.1.description" = "Quantum 단어의 뜻을 완전히 이해하기";
+"lesson.basics1.1.content" = "Quantum의 의미를 알면 양자컴퓨터가 보인다!\n\n**QUANTUM (퀀텀)**\n- 라틴어: 'quantus' = '얼마나 많은'\n- 물리학: '최소 단위'\n- 의미: 더 이상 나눌 수 없는 에너지 덩어리\n- 비유: 레고의 가장 작은 블록\n\n**핵심**: 원자나 빛 같은 매우 작은 것들의 세계를 다룬다";
+"lesson.basics1.1.mnemonic" = "Q = Quanta = 양자화 = 더 작게 나눌 수 없음";
+"lesson.basics1.1.difficulty" = "매우쉬움";
+
+"lesson.basics1.2.title" = "Computer란? 계산 기계의 이해";
+"lesson.basics1.2.description" = "일반 컴퓨터가 뭔지 정확히 알기";
+"lesson.basics1.2.content" = "Computer의 의미를 완벽히 이해하자!\n\n**COMPUTER (컴퓨터)**\n- 라틴어: 'computare' = '함께 계산하다'\n- com- (함께) + putare (계산)\n- 의미: 계산하는 기계\n\n**일반 컴퓨터의 원리**:\n- 0과 1 (켜짐/꺼짐)로만 생각\n- 한 번에 한 가지만\n- 매우 빠르지만 순차적";
+"lesson.basics1.2.mnemonic" = "Computer = Calculate + Together = 계산 기계";
+"lesson.basics1.2.difficulty" = "매우쉬움";
+
+"lesson.basics1.3.title" = "양자컴퓨터란 뭘까?";
+"lesson.basics1.3.description" = "양자컴퓨터의 정의 - 원자의 마법을 이용한 슈퍼컴퓨터";
+"lesson.basics1.3.content" = "**양자컴퓨터 정의**:\n양자의 신비한 성질(중첩, 얽힘)을 이용해 수많은 계산을 동시에 하는 미래의 슈퍼컴퓨터\n\n**핵심 차이점**: 일반 컴퓨터가 활용할 수 없는 중첩과 얽힘 같은 양자 특성을 사용";
+"lesson.basics1.3.mnemonic" = "양자 + 컴퓨터 = 원자 마법 슈퍼컴퓨터";
+"lesson.basics1.3.difficulty" = "쉬움";
+
+"lesson.basics1.4.title" = "무엇이 다를까? 완전 비교";
+"lesson.basics1.4.description" = "일반 컴퓨터와 양자컴퓨터의 5가지 핵심 차이";
+"lesson.basics1.4.content" = "**5가지 핵심 차이**:\n\n1. 기본 단위: Bit (0 또는 1) vs Qubit (0과 1 동시)\n2. 처리 방식: 순차적 (하나씩) vs 병렬적 (동시에)\n3. 온도: 실온 (20°C) vs 절대영도 (-273°C)\n4. 크기: 책상 위 vs 방 하나 크기\n5. 에러율: 거의 없음 vs 아직 높음 (해결 중)";
+"lesson.basics1.4.mnemonic" = "BITS = Basic, Individual, Traditional, Sequential";
+"lesson.basics1.4.difficulty" = "쉬움";
+
+// MARK: - Track 2: 양자의 신비한 성질
+"lesson.principles2.1.title" = "Superposition 중첩 - 동시에 여러 상태!";
+"lesson.principles2.1.description" = "슈뢰딩거의 고양이부터 양자 동전까지";
+"lesson.principles2.1.content" = "**Superposition (중첩): 동시에 여러 상태로 존재!**\n\n일반 동전:\n- 앞면 또는 뒷면 (하나만)\n\n양자 동전:\n- 앞면이면서 동시에 뒷면!\n- 관찰하기 전까지 둘 다 존재\n- 관찰하는 순간 하나로 결정\n\n**슈뢰딩거의 고양이**: 상자 속 고양이는 살아있으면서 동시에 죽어있다 (관찰 전까지)";
+"lesson.principles2.1.mnemonic" = "SUPER = Simultaneous Unified Probability Exists Randomly";
+"lesson.principles2.1.difficulty" = "쉬움";
+
+"lesson.principles2.2.title" = "Entanglement 얽힘 - 쌍둥이 텔레파시";
+"lesson.principles2.2.description" = "거리와 상관없이 즉시 연결되는 신비";
+"lesson.principles2.2.content" = "**Entanglement (얽힘): 분리 불가능하게 연결된 입자들**\n\n양자 얽힌 쌍둥이:\n- 서울에 있는 입자A\n- 부산에 있는 입자B (1000km 떨어짐)\n- A가 우측으로 회전 → B는 즉시 좌측으로 회전!\n\n**놀라운 점**:\n- 빛의 속도보다 빠름! (즉시!)\n- 신호 없이 연결됨\n- 아인슈타인이 '유령 같은 원거리 작용'이라 불렀음";
+"lesson.principles2.2.mnemonic" = "얽힘 = 아인슈타인의 'spooky' 연결";
+"lesson.principles2.2.difficulty" = "쉬움";
+
+"lesson.principles2.3.title" = "Quantum Tunneling 터널링 - 벽을 통과!";
+"lesson.principles2.3.description" = "산을 넘을 수 없어도 통과 가능한 마법";
+"lesson.principles2.3.content" = "**터널링: 충분한 에너지 없이 장벽을 통과**\n\n현실 세계:\n- 벽을 통과할 수 없음 = 튕겨나옴\n\n양자 세계:\n- 넘을 에너지가 없는데...\n- 반대쪽에 나타났다! (확률적으로)\n\n**응용**: 핵융합 (태양이 빛나는 이유), 플래시 메모리, 방사능 붕괴";
+"lesson.principles2.3.mnemonic" = "터널 = T.T. = Totally Transcends barriers";
+"lesson.principles2.3.difficulty" = "보통";
+
+"lesson.principles2.4.title" = "Qubit 큐비트 - 양자 정보의 단위";
+"lesson.principles2.4.description" = "Bit와 Qubit의 완벽한 비교";
+"lesson.principles2.4.content" = "**Bit vs Qubit**\n\n일반 Bit:\n- 0 또는 1 (2가지 상태)\n- 고정된 표현\n\nQubit:\n- |0⟩이면서 |1⟩ 동시에 (중첩)\n- α|0⟩ + β|1⟩\n\n**파워**:\n- 1 Qubit = 2가지 상태 동시\n- 10 Qubit = 1024가지 상태 동시\n- 100 Qubit = 1.27 × 10³⁰가지 상태 동시!";
+"lesson.principles2.4.mnemonic" = "Qubit = Quantum + Bit = 0과 1 둘 다";
+"lesson.principles2.4.difficulty" = "보통";
+
+// MARK: - Track 3: 양자컴퓨터 작동 원리
+"lesson.operation3.1.title" = "극저온 냉각 - 원자를 조용히";
+"lesson.operation3.1.description" = "-273°C, 절대영도 근처가 필요한 이유";
+"lesson.operation3.1.content" = "**왜 이렇게 차가워야 할까?**\n\n3가지 이유:\n1. 원자의 떨림 멈추기: 따뜻함 = 원자가 흔들림, 추움 = 원자가 정지됨\n2. 양자 상태 보호: 열 = 노이즈 = 양자 상태 파괴\n3. 노이즈 제거: 실온: 노이즈 >> 신호 (불가능). 극저온: 신호 >> 노이즈 (가능!)\n\n**냉각 방법**: 액체 헬륨 (4.2K), 희석 냉동기 (10mK)";
+"lesson.operation3.1.mnemonic" = "차가움 = 차분한 양자 상태";
+"lesson.operation3.1.difficulty" = "보통";
+
+"lesson.operation3.2.title" = "큐비트 초기화 - 준비 상태로";
+"lesson.operation3.2.description" = "계산 전에 모든 큐비트를 준비하기";
+"lesson.operation3.2.content" = "**초기화 과정**:\n1. 큐비트들이 랜덤 상태 → 지저분함\n2. 초기화 펄스 적용\n3. 모든 큐비트가 |0⟩ 상태로 정렬\n4. 계산 시작 준비 완료!\n\n**종류별 방법**:\n- 초전도: 마이크로파 펄스로 |0⟩ 강제\n- 이온 트랩: 레이저로 기저 상태로 냉각";
+"lesson.operation3.2.mnemonic" = "초기화 = 모든 큐비트가 |0⟩에서 시작";
+"lesson.operation3.2.difficulty" = "보통";
+
+"lesson.operation3.3.title" = "양자 게이트 - 춤을 추게 하기";
+"lesson.operation3.3.description" = "Pauli, Hadamard, CNOT 게이트 이해";
+"lesson.operation3.3.content" = "**4가지 기본 게이트**:\n\n1. Pauli-X (NOT): |0⟩ → |1⟩, |1⟩ → |0⟩ (뒤집기)\n2. Hadamard (H): |0⟩ → 중첩 (중첩 생성!)\n3. CNOT: 제어가 |1⟩이면 목표 뒤집기 (얽힘 생성!)\n4. Phase: |1⟩의 위상 변경\n\n**회로**: 초기 → [H] → [X] → [CNOT] → ... → [측정]";
+"lesson.operation3.3.mnemonic" = "H.X.C.P. = Hadamard, X-flip, Control-NOT, Phase";
+"lesson.operation3.3.difficulty" = "어려움";
+
+"lesson.operation3.4.title" = "측정 & 결과 해석";
+"lesson.operation3.4.description" = "답을 어떻게 확인할까? 확률 기반 읽음";
+"lesson.operation3.4.content" = "**측정 과정**:\n- 측정 전: (|0⟩ + |1⟩)/√2 (둘 다!)\n- 측정하는 순간: 상태 붕괴!\n- 측정 후: |0⟩ 또는 |1⟩ (하나로!)\n\n**확률적 읽기**:\n- 1회 실행: 무작위 결과\n- 1000회 실행: 약 500회 |0⟩, 500회 |1⟩\n- 10000회 실행: 더 정확한 확률 분포";
+"lesson.operation3.4.mnemonic" = "측정 = 여러 번 실행으로 확률 파악";
+"lesson.operation3.4.difficulty" = "보통";
+
+// MARK: - Track 4: 양자컴퓨터 종류
+"lesson.types4.1.title" = "초전도 방식 - IBM, Google";
+"lesson.types4.1.description" = "가장 널리 사용되는 방식의 원리와 장단점";
+"lesson.types4.1.content" = "**초전도 큐비트**\n\n원리: 극저온의 초전도 링\n- 시계방향 자기 흐름 = |0⟩\n- 반시계방향 = |1⟩\n\n장점: 매우 빠름 (나노초), 성숙한 기술, 확장 가능\n단점: 극저온 필요 (-269°C), 높은 에러율, 짧은 코히어런스 시간\n\n회사: IBM, Google, Rigetti";
+"lesson.types4.1.mnemonic" = "초저온 = 초전도 = 초고속";
+"lesson.types4.1.difficulty" = "보통";
+
+"lesson.types4.2.title" = "이온 트랩 방식 - IonQ, Honeywell";
+"lesson.types4.2.description" = "높은 정확도의 대신 느린 방식";
+"lesson.types4.2.content" = "**이온 트랩 큐비트**\n\n원리: 레이저로 갇힌 이온 제어\n- 기저 상태 = |0⟩\n- 들뜬 상태 = |1⟩\n\n장점: 매우 높은 정확도 (~99.9%), 긴 코히어런스 시간 (분 단위), 완벽한 균일성\n단점: 매우 느림 (마이크로초), 확장 어려움, 고비용\n\n회사: IonQ, Honeywell/Quantinuum";
+"lesson.types4.2.mnemonic" = "이온 = Incredibly accurate but slow";
+"lesson.types4.2.difficulty" = "보통";
+
+"lesson.types4.3.title" = "광자 방식 - Xanadu, PsiQuantum";
+"lesson.types4.3.description" = "빛을 이용한 혁신적 방식";
+"lesson.types4.3.content" = "**광자 큐비트**\n\n원리: 빛 입자의 성질 사용\n- 수평 편광 = |0⟩\n- 수직 편광 = |1⟩\n\n장점: 실온 작동!, 낮은 데코히어런스, 통신에 유리\n단점: 측정 어려움 (60-80% 손실), 제어 어려움, 아직 초기 단계\n\n회사: Xanadu, PsiQuantum";
+"lesson.types4.3.mnemonic" = "광자 = 빛 = 냉각 불필요";
+"lesson.types4.3.difficulty" = "어려움";
+
+"lesson.types4.4.title" = "위상 방식 - Microsoft 연구";
+"lesson.types4.4.description" = "위상학적 보호로 자동 오류수정";
+"lesson.types4.4.content" = "**위상 큐비트**\n\n원리: 마요라나 페르미온 사용\n- 위상학적으로 보호된 상태\n- 작은 에러를 자동으로 무시!\n\n장점: 자동 에러 수정!, 높은 이론적 정확도, 효율적 확장\n단점: 아직 증명되지 않음, 여전히 극저온 필요, 가장 기초 단계\n\n회사: Microsoft (연구), QuTech";
+"lesson.types4.4.mnemonic" = "위상학 = 도넛 모양 = 보호된 상태";
+"lesson.types4.4.difficulty" = "매우어려움";
+
+// MARK: - Track 5: 현재 발전 상황
+"lesson.status5.1.title" = "Google Willow 칩 - 2024 돌파구";
+"lesson.status5.1.description" = "100 큐비트 달성과 에러율 절반 감소";
+"lesson.status5.1.content" = "**Willow 칩 성과 (2024)**:\n\n1. 100+ 큐비트: Sycamore의 53에서 2배\n2. 에러율 절반: ~1% → ~0.5% (돌파구!)\n3. 양자 우월성 재증명: 더 현실적인 문제들\n\n**의미**: 양자컴퓨터가 실용화될 것인가 '만약'이 아니라 '언제'로 바뀜";
+"lesson.status5.1.mnemonic" = "Willow = 낮은 에러로 승리";
+"lesson.status5.1.difficulty" = "보통";
+
+"lesson.status5.2.title" = "IBM의 야심찬 계획";
+"lesson.status5.2.description" = "Flamingo(1,386 큐비트), Kookaburra(4,158 큐비트)";
+"lesson.status5.2.content" = "**IBM 로드맵**:\n\nFlamingo (2024-2025):\n- 1,386 물리 큐비트\n- Hummingbird에서 20배 확장\n\nKookaburra (2026):\n- 칩당 4,158 큐비트\n- 3개 칩 연결 = 12,474 큐비트!\n- 첫 양자 네트워킹 시도";
+"lesson.status5.2.mnemonic" = "IBM 새들 = 매년 더 큰 큐비트";
+"lesson.status5.2.difficulty" = "보통";
+
+"lesson.status5.3.title" = "에러 수정 - 실용화의 열쇠";
+"lesson.status5.3.description" = "1% → 0.1% 에러율 감소의 의미";
+"lesson.status5.3.content" = "**에러율 진전**:\n\n2019: ~1% (100개 연산 중 1개 틀림)\n2024: ~0.5% (돌파구!)\n2025 목표: ~0.1% (실용화 수준?)\n\n**에러 수정 임계값**: ~1%\n- 이 아래면: 에러 정정 가능!\n- 현재: 임계값 근처!\n- 목표: 확실히 아래로";
+"lesson.status5.3.mnemonic" = "에러 감소 = 응용 증가";
+"lesson.status5.3.difficulty" = "어려움";
+
+"lesson.status5.4.title" = "돈이 몰리는 이유 - 투자 현황";
+"lesson.status5.4.description" = "2024: $15억, 예상 2025: $20억+ 투자";
+"lesson.status5.4.content" = "**글로벌 투자**:\n\n2023: $10억\n2024: $15억 (50% 증가)\n2025 예상: $20억+ (33% 성장)\n\n**국가별**:\n- 미국: $10억+ (Google, IBM, IonQ)\n- 중국: $8억+ (정부 주도)\n- EU: $5억 (Quantum Flagship)\n- 일본: $7억+ (METI 프로그램)\n- 한국: $3억 (K-Quantum)";
+"lesson.status5.4.mnemonic" = "투자 급증 = 기술이 가능해 보임";
+"lesson.status5.4.difficulty" = "보통";
+
+// MARK: - Track 6: 응용 분야
+"lesson.apps6.1.title" = "제약 산업 혁명 - 신약 개발 2배 빠르게";
+"lesson.apps6.1.description" = "단백질 접힘 시뮬레이션으로 10년→2년";
+"lesson.apps6.1.content" = "**제약 응용**:\n\n현재: 10년 이상, 비용 1조원\n- 단백질 3D 구조? 거의 계산 불가능\n- 약물 상호작용? 너무 복잡함\n\n양자컴퓨터로:\n- 모든 가능성을 동시에 시뮬레이션\n- 개발: 10년 → 2년\n- 비용: 1조원 → 1000억원\n\n파트너: Roche, Merck";
+"lesson.apps6.1.mnemonic" = "제약 + 양자 = 빠른 치료";
+"lesson.apps6.1.difficulty" = "어려움";
+
+"lesson.apps6.2.title" = "금융의 미래 - 포트폴리오 최적화";
+"lesson.apps6.2.description" = "리스크 계산 1000배 빠르게";
+"lesson.apps6.2.content" = "**금융 응용**:\n\n현재: 근사치만 가능\n- 포트폴리오 최적화? 제한적\n- 사기 탐지? 패턴 기반만 가능\n\n양자컴퓨터로:\n- 모든 변수를 동시에 고려\n- 실시간 최적화 가능\n- 사기 탐지: 거의 100% 정확도\n\n파트너: JP Morgan";
+"lesson.apps6.2.mnemonic" = "금융 + 양자 = 더 나은 예측";
+"lesson.apps6.2.difficulty" = "어려움";
+
+"lesson.apps6.3.title" = "기후 예측 - 정확도 70%→95%";
+"lesson.apps6.3.description" = "1주→1개월 예측 기간 연장";
+"lesson.apps6.3.content" = "**기후 응용**:\n\n현재: 1주일 정확도 한계\n- 기후 변수가 너무 많음\n- 슈퍼컴퓨터도 1주일이 한계\n\n양자컴퓨터로:\n- 1개월 이상 정확한 예측\n- 태풍 경로: 99.9% 정확도\n- 미세먼지: 시간별 정확 예측";
+"lesson.apps6.3.mnemonic" = "기후 + 양자 = 더 긴 예보";
+"lesson.apps6.3.difficulty" = "어려움";
+
+"lesson.apps6.4.title" = "보안의 위협과 해결 - 양자내성암호";
+"lesson.apps6.4.description" = "현재 암호 10년 내 무력화, 새로운 방식 필요";
+"lesson.apps6.4.content" = "**보안 영향**:\n\n위협: RSA-2048 해독 가능\n- 현재 암호 취약\n- 은행, 정부, 개인 데이터 위험\n\n해결: 양자내성암호 (PQC)\n- 양자 공격에 저항하는 새 알고리즘\n- NIST 표준화 진행 중\n- 양자컴퓨터 성숙 전 마이그레이션 필요";
+"lesson.apps6.4.mnemonic" = "포스트퀀텀 = 미래를 위한 준비";
+"lesson.apps6.4.difficulty" = "매우어려움";
+
+// MARK: - Track 7: 미래 전망
+"lesson.future7.1.title" = "10년 로드맵: 2025-2035년 예상";
+"lesson.future7.1.description" = "초기 상용화 → 성장기 → 성숙기";
+"lesson.future7.1.content" = "**로드맵**:\n\n1단계 (2025-2027): 초기 상용화\n- 에러율 개선\n- 첫 상업적 응용\n\n2단계 (2028-2030): 성장기\n- 100+ 논리 큐비트\n- 다양한 산업 응용\n\n3단계 (2031-2035): 성숙기\n- 1000+ 논리 큐비트\n- 일상 생활 응용";
+"lesson.future7.1.mnemonic" = "2025-2035: 연구실에서 일상으로";
+"lesson.future7.1.difficulty" = "어려움";
+
+"lesson.future7.2.title" = "인재 부족의 기회 - 2030년 25만명 필요";
+"lesson.future7.2.description" = "구인 3개당 전문가 1명만 존재";
+"lesson.future7.2.content" = "**인재 부족**:\n\n2030년 수요: 25만 전문가\n현재 공급: 심각한 부족\n비율: 자격있는 후보 1명당 일자리 3개\n\n**기회**:\n- 지금 배움 = 나중에 유리\n- 초기 전문성 = 커리어 기회\n- 다학제적 스킬 가치";
+"lesson.future7.2.mnemonic" = "지금 배움 = 나중에 선도";
+"lesson.future7.2.difficulty" = "보통";
+
+"lesson.future7.3.title" = "2026년 - 실용화의 원년";
+"lesson.future7.3.description" = "실험실 → 실생활의 대전환";
+"lesson.future7.3.content" = "**2026년 기대**:\n\n- 100개 이상 기업이 양자 사용\n- 첫 양자 발견 신약 임상시험?\n- 양자 인터넷 인프라 시작\n- 하드웨어 크기 축소\n- 가격 하락: $1000만 → $100만";
+"lesson.future7.3.mnemonic" = "2026 = 양자가 실용화됨";
+"lesson.future7.3.difficulty" = "어려움";
+
+"lesson.future7.4.title" = "당신이 양자 혁명의 주인공이 될 수 있는 이유";
+"lesson.future7.4.description" = "지금 배우면 2026-2030년 최고의 기회";
+"lesson.future7.4.content" = "**당신의 기회**:\n\n왜 지금인가?:\n- 기술이 변곡점에\n- 인재 부족 임박\n- 얼리무버 이점\n\n무엇을 할까:\n- 기초 배우기 (이 코스!)\n- 발전 상황 팔로우\n- 점진적 스킬 쌓기\n\n결과: 양자가 주류가 될 때 준비 완료";
+"lesson.future7.4.mnemonic" = "오늘 시작 = 내일 선도";
+"lesson.future7.4.difficulty" = "보통";
+
+// MARK: - Track 8: 2026년 구체적 전망
+"lesson.detailed8.1.title" = "하드웨어 혁명 - IBM, Google의 야심";
+"lesson.detailed8.1.description" = "Condor 5,000큐비트, Willow 2.0 500론리큐비트";
+"lesson.detailed8.1.content" = "**2026년 하드웨어 목표**:\n\nIBM Condor:\n- 5,000 물리 큐비트\n- 연결 시스템: 12,000+\n\nGoogle Willow 2.0:\n- 500 논리 큐비트\n- 개선된 에러 수정\n\n크기 축소:\n- 방 크기 → 캐비닛 크기?\n- 냉각 효율 개선";
+"lesson.detailed8.1.mnemonic" = "2026 하드웨어 = 더 크고 더 작게";
+"lesson.detailed8.1.difficulty" = "어려움";
+
+"lesson.detailed8.2.title" = "산업별 실용화 시작 - 첫 양자 신약 임상";
+"lesson.detailed8.2.description" = "제약, 금융, 자동차 등 실제 사용 시작";
+"lesson.detailed8.2.content" = "**2026년 산업 응용**:\n\n제약:\n- 첫 양자 설계 신약 임상시험\n\n금융:\n- 실시간 거래 최적화\n\n자동차:\n- 배터리 재료 발견\n\n화학:\n- 새로운 촉매 설계";
+"lesson.detailed8.2.mnemonic" = "2026 = 양자가 일한다";
+"lesson.detailed8.2.difficulty" = "어려움";
+
+"lesson.detailed8.3.title" = "양자 인터넷 시대 개막";
+"lesson.detailed8.3.description" = "절대 안전한 통신망 구축 시작";
+"lesson.detailed8.3.content" = "**2026년 양자 인터넷**:\n\n특징:\n- 해킹 불가능한 통신\n- 양자 얽힘 사용\n- 모든 도청 감지 가능\n\n진전:\n- 2000km 네트워크 테스트 (중국)\n- 5개국 이상 인프라 구축\n- 금융 기관 첫 도입자";
+"lesson.detailed8.3.mnemonic" = "양자 인터넷 = 완전히 안전";
+"lesson.detailed8.3.difficulty" = "어려움";
+
+"lesson.detailed8.4.title" = "가격 혁명 - 90% 가격 하락";
+"lesson.detailed8.4.description" = "$1000만 → $100만 (130억→13억원)";
+"lesson.detailed8.4.content" = "**가격 변화**:\n\n2024: 시스템당 약 $1000만\n2026: 시스템당 약 $100만 (90% 하락!)\n\n클라우드 접근:\n- 클라우드로 더 저렴하게\n- 사용량 기반 모델\n- 민주화된 접근\n\n영향:\n- 더 많은 기업이 감당 가능\n- 더 빠른 도입\n- 더 많은 혁신";
+"lesson.detailed8.4.mnemonic" = "90% 저렴 = 10배 더 많은 사용자";
+"lesson.detailed8.4.difficulty" = "보통";
+
+// MARK: - Track 9: 핵심 키워드
+"lesson.keywords9.1.title" = "8개 핫 키워드 - 2025년 반드시 알아야 할";
+"lesson.keywords9.1.description" = "Quantum Advantage, NISQ, Error Correction 등";
+"lesson.keywords9.1.content" = "**8가지 필수 키워드**:\n\n1. Quantum Advantage: 양자가 고전을 이길 때\n2. NISQ: Noisy Intermediate-Scale Quantum\n3. Error Correction: 양자 에러 수정\n4. Logical Qubit: 에러 수정된 큐비트\n5. Coherence Time: 양자 상태 지속 시간\n6. Decoherence: 양자 상태 손실\n7. Quantum Volume: 성능 측정 지표\n8. Fidelity: 연산 정확도";
+"lesson.keywords9.1.mnemonic" = "Q-NELCDFQ = 필수 양자 어휘";
+"lesson.keywords9.1.difficulty" = "보통";
+
+"lesson.keywords9.2.title" = "필수 용어 사전 - Coherence부터 Annealing까지";
+"lesson.keywords9.2.description" = "양자 개념의 영어/한자 표현 완벽 정리";
+"lesson.keywords9.2.content" = "**핵심 용어**:\n\nCoherence (결맞음): 양자 상태 유지\nAnnealing (어닐링): 터널링을 통한 최적화\nSuperposition (중첩): 동시에 여러 상태\nEntanglement (얽힘): 비국소적 상관\nQubit (큐비트): 양자 비트\nGate (게이트): 양자 연산\nMeasurement (측정): 상태 붕괴 및 읽기";
+"lesson.keywords9.2.mnemonic" = "CASEQGM = 완전한 양자 어휘";
+"lesson.keywords9.2.difficulty" = "보통";
+
+"lesson.keywords9.3.title" = "국가별 양자 경쟁 - 미국, 중국, EU, 일본, 한국";
+"lesson.keywords9.3.description" = "2026년 양자 강국 순위와 전략";
+"lesson.keywords9.3.content" = "**국가별 전략**:\n\n미국: 민간 부문 주도, Google/IBM/IonQ\n중국: 정부 주도 대규모 투자\nEU: 연구 중심, Quantum Flagship\n일본: 장기 METI 프로그램\n한국: 성장하는 K-Quantum 이니셔티브\n\n2025년 순위:\n1. 미국 2. 중국 3. EU 4. 일본 5. 한국";
+"lesson.keywords9.3.mnemonic" = "미-중 경쟁, 다른 나라들 추격 중";
+"lesson.keywords9.3.difficulty" = "어려움";
+
+"lesson.keywords9.4.title" = "2026년 위험과 과제 - 해결해야 할 5가지";
+"lesson.keywords9.4.description" = "Quantum Divide, 에너지, 인재 부족 등";
+"lesson.keywords9.4.content" = "**5가지 핵심 과제**:\n\n1. Quantum Divide: 부자와 가난한 자의 접근 격차\n2. 에너지: 냉각을 위한 높은 전력 소비\n3. 인재: 전문가의 심각한 부족\n4. 보안: 암호화 취약성\n5. 윤리: 잠재적 오용 우려\n\n기회: 각 과제 = 비즈니스 기회";
+"lesson.keywords9.4.mnemonic" = "QETES = 양자가 해결해야 할 과제들";
