@@ -1,0 +1,172 @@
+/* 
+ * Localizable.strings (Korean)
+ * SwiftQuantum Learning App
+ * 
+ * 사용 방법:
+ * Text("learn.title")  // "학습"
+ * NSLocalizedString("learn.title", comment: "")
+ */
+
+// MARK: - Common
+"common.continue" = "계속";
+"common.back" = "뒤로";
+"common.next" = "다음";
+"common.done" = "완료";
+"common.skip" = "건너뛰기";
+"common.cancel" = "취소";
+"common.close" = "닫기";
+"common.save" = "저장";
+"common.delete" = "삭제";
+"common.edit" = "편집";
+"common.loading" = "로딩 중...";
+"common.error" = "오류";
+"common.success" = "성공";
+"common.warning" = "경고";
+
+// MARK: - Learning
+"learn.title" = "학습";
+"learn.selectTrack" = "학습 경로를 선택하세요";
+"learn.allLevels" = "모든 레벨";
+"learn.myProgress" = "나의 진행 상황";
+"learn.startLearning" = "학습 시작";
+"learn.continueLevel" = "레벨 계속하기";
+"learn.completedLevels" = "완료한 레벨";
+"learn.nextLevel" = "다음 레벨";
+
+// MARK: - Levels
+"level.title" = "레벨 %d";
+"level.difficulty" = "난이도";
+"level.duration" = "소요 시간: %d분";
+"level.xpReward" = "%d XP";
+"level.prerequisites" = "선행 조건";
+"level.locked" = "이전 레벨을 완료하여 잠금 해제하세요";
+"level.completed" = "완료됨";
+"level.inProgress" = "진행 중";
+
+// MARK: - Learning Strategies
+"strategy.title" = "학습 전략";
+"strategy.memory" = "기억 트리거";
+"strategy.conceptMap" = "개념 맵";
+"strategy.feynman" = "파인만 기법";
+"strategy.selectStrategy" = "당신에게 가장 잘 맞는 학습 전략을 선택하세요";
+
+// MARK: - Memory Triggers
+"memory.title" = "기억 트리거 & 기억 구조";
+"memory.mnemonic" = "기억 구조";
+"memory.description" = "설명";
+"memory.difficulty" = "난이도";
+"memory.tip" = "이러한 기억 구조를 사용하여 정신적 앵커를 만드세요.";
+
+// MARK: - Concept Maps
+"conceptMap.title" = "개념 맵";
+"conceptMap.centralConcept" = "중심 개념";
+"conceptMap.relatedConcepts" = "관련 개념";
+"conceptMap.connections" = "연결 관계";
+"conceptMap.tip" = "개념들이 서로 어떻게 관련되어 있는지 이해하세요.";
+
+// MARK: - Feynman Explanation
+"feynman.title" = "파인만 기법 설명";
+"feynman.simpleExplanation" = "간단한 설명";
+"feynman.details" = "상세 설명";
+"feynman.analogies" = "도움이 되는 비유";
+"feynman.misconceptions" = "흔한 오류";
+"feynman.tip" = "각 개념을 간단한 말로 설명하세요. 간단히 설명할 수 있다면, 당신은 진정으로 이해하는 것입니다!";
+
+// MARK: - Quiz
+"quiz.question" = "문제 %d / %d";
+"quiz.selectAnswer" = "답변을 선택하세요";
+"quiz.correct" = "✅ 정답입니다!";
+"quiz.incorrect" = "❌ 틀렸습니다";
+"quiz.explanation" = "설명";
+"quiz.yourAnswer" = "당신의 답변";
+"quiz.correctAnswer" = "정답";
+"quiz.nextQuestion" = "다음 문제";
+"quiz.finish" = "퀴즈 완료";
+"quiz.score" = "점수: %d%%";
+
+// MARK: - XP & Progress
+"progress.xp" = "%d XP";
+"progress.level" = "레벨 %d";
+"progress.nextLevel" = "다음 레벨까지 %d XP";
+"progress.levelProgress" = "레벨 진행률";
+"progress.totalXP" = "총 XP";
+"progress.currentStreak" = "현재 연속 학습";
+"progress.longestStreak" = "최장 연속 학습";
+
+// MARK: - Achievements
+"achievement.title" = "성취";
+"achievement.unlocked" = "달성";
+"achievement.locked" = "잠금";
+"achievement.earnedXP" = "%d XP를 획득했습니다!";
+"achievement.congratulations" = "축하합니다! 🎉";
+"achievement.newBadge" = "새로운 배지를 달성했습니다!";
+
+// MARK: - Home
+"home.welcomeBack" = "다시 오셨네요!";
+"home.yourProgress" = "당신의 진행 상황";
+"home.recentAchievements" = "최근 성취";
+"home.dailyChallenge" = "오늘의 도전";
+"home.continueYourJourney" = "양자 학습 여정을 계속하세요";
+
+// MARK: - Practice
+"practice.title" = "연습";
+"practice.difficulty" = "난이도";
+"practice.exercises" = "연습 문제";
+"practice.completed" = "완료됨";
+"practice.unlockPrevious" = "이전 레벨을 완료하여 잠금 해제하세요";
+
+// MARK: - Explore
+"explore.title" = "탐색";
+"explore.concepts" = "개념";
+"explore.glossary" = "용어집";
+"explore.resources" = "리소스";
+"explore.featured" = "특집";
+
+// MARK: - Profile
+"profile.title" = "프로필";
+"profile.stats" = "통계";
+"profile.achievements" = "성취";
+"profile.settings" = "설정";
+"profile.logout" = "로그아웃";
+"profile.member" = "%@ 동안 회원";
+
+// MARK: - Auth
+"auth.login" = "로그인";
+"auth.signup" = "회원가입";
+"auth.email" = "이메일";
+"auth.password" = "비밀번호";
+"auth.confirmPassword" = "비밀번호 확인";
+"auth.username" = "사용자명";
+"auth.forgotPassword" = "비밀번호를 잊으셨나요?";
+"auth.dontHaveAccount" = "계정이 없으신가요?";
+"auth.alreadyHaveAccount" = "이미 계정이 있으신가요?";
+"auth.welcome" = "다시 오셨습니다";
+"auth.createAccount" = "계정 생성";
+
+// MARK: - Quantum Concepts
+"concept.qubit" = "큐비트";
+"concept.superposition" = "중첩";
+"concept.entanglement" = "얽힘";
+"concept.measurement" = "측정";
+"concept.gate" = "양자 게이트";
+"concept.blochSphere" = "블로흐 구";
+"concept.amplitude" = "확률 진폭";
+"concept.interference" = "양자 간섭";
+
+// MARK: - Settings
+"settings.title" = "설정";
+"settings.learning" = "학습";
+"settings.appearance" = "모양";
+"settings.notifications" = "알림";
+"settings.about" = "정보";
+"settings.darkMode" = "다크 모드";
+"settings.soundEffects" = "음성 효과";
+"settings.hapticFeedback" = "햅틱 피드백";
+"settings.dailyReminders" = "일일 알림";
+
+// MARK: - Errors
+"error.networkError" = "네트워크 오류가 발생했습니다. 연결을 확인하세요.";
+"error.loadingFailed" = "콘텐츠를 로드할 수 없습니다. 다시 시도하세요.";
+"error.invalidEmail" = "유효하지 않은 이메일 형식";
+"error.weakPassword" = "비밀번호는 최소 6자 이상이어야 합니다";
+"error.passwordMismatch" = "비밀번호가 일치하지 않습니다";

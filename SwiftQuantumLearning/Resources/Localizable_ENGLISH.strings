@@ -1,0 +1,172 @@
+/* 
+ * Localizable.strings (English)
+ * SwiftQuantum Learning App
+ * 
+ * 사용 방법:
+ * Text("learn.title")  // "Learn"
+ * NSLocalizedString("learn.title", comment: "")
+ */
+
+// MARK: - Common
+"common.continue" = "Continue";
+"common.back" = "Back";
+"common.next" = "Next";
+"common.done" = "Done";
+"common.skip" = "Skip";
+"common.cancel" = "Cancel";
+"common.close" = "Close";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.loading" = "Loading...";
+"common.error" = "Error";
+"common.success" = "Success";
+"common.warning" = "Warning";
+
+// MARK: - Learning
+"learn.title" = "Learn";
+"learn.selectTrack" = "Choose your learning path";
+"learn.allLevels" = "All Levels";
+"learn.myProgress" = "My Progress";
+"learn.startLearning" = "Start Learning";
+"learn.continueLevel" = "Continue Level";
+"learn.completedLevels" = "Completed Levels";
+"learn.nextLevel" = "Next Level";
+
+// MARK: - Levels
+"level.title" = "Level %d";
+"level.difficulty" = "Difficulty";
+"level.duration" = "Duration: %d min";
+"level.xpReward" = "%d XP";
+"level.prerequisites" = "Prerequisites";
+"level.locked" = "Unlock by completing previous levels";
+"level.completed" = "Completed";
+"level.inProgress" = "In Progress";
+
+// MARK: - Learning Strategies
+"strategy.title" = "Learning Strategies";
+"strategy.memory" = "Memory Triggers";
+"strategy.conceptMap" = "Concept Maps";
+"strategy.feynman" = "Feynman Technique";
+"strategy.selectStrategy" = "Select a learning strategy that works best for you";
+
+// MARK: - Memory Triggers
+"memory.title" = "Memory Triggers & Mnemonics";
+"memory.mnemonic" = "Mnemonic";
+"memory.description" = "Description";
+"memory.difficulty" = "Difficulty";
+"memory.tip" = "Use these mnemonics to create mental anchors. Repeat them while studying.";
+
+// MARK: - Concept Maps
+"conceptMap.title" = "Concept Maps";
+"conceptMap.centralConcept" = "Central Concept";
+"conceptMap.relatedConcepts" = "Related Concepts";
+"conceptMap.connections" = "Connections";
+"conceptMap.tip" = "Understand how concepts relate to each other.";
+
+// MARK: - Feynman Explanation
+"feynman.title" = "Feynman Technique Explanations";
+"feynman.simpleExplanation" = "Simple Explanation";
+"feynman.details" = "Details";
+"feynman.analogies" = "Helpful Analogies";
+"feynman.misconceptions" = "Common Misconceptions";
+"feynman.tip" = "Explain each concept simply. If you can explain it simply, you understand it!";
+
+// MARK: - Quiz
+"quiz.question" = "Question %d of %d";
+"quiz.selectAnswer" = "Select an answer";
+"quiz.correct" = "✅ Correct!";
+"quiz.incorrect" = "❌ Incorrect";
+"quiz.explanation" = "Explanation";
+"quiz.yourAnswer" = "Your answer";
+"quiz.correctAnswer" = "Correct answer";
+"quiz.nextQuestion" = "Next Question";
+"quiz.finish" = "Finish Quiz";
+"quiz.score" = "Score: %d%%";
+
+// MARK: - XP & Progress
+"progress.xp" = "%d XP";
+"progress.level" = "Level %d";
+"progress.nextLevel" = "%d XP until next level";
+"progress.levelProgress" = "Level Progress";
+"progress.totalXP" = "Total XP";
+"progress.currentStreak" = "Current Streak";
+"progress.longestStreak" = "Longest Streak";
+
+// MARK: - Achievements
+"achievement.title" = "Achievements";
+"achievement.unlocked" = "Unlocked";
+"achievement.locked" = "Locked";
+"achievement.earnedXP" = "You earned %d XP!";
+"achievement.congratulations" = "Congratulations! 🎉";
+"achievement.newBadge" = "New Badge Unlocked!";
+
+// MARK: - Home
+"home.welcomeBack" = "Welcome back!";
+"home.yourProgress" = "Your Progress";
+"home.recentAchievements" = "Recent Achievements";
+"home.dailyChallenge" = "Daily Challenge";
+"home.continueYourJourney" = "Continue your quantum learning journey";
+
+// MARK: - Practice
+"practice.title" = "Practice";
+"practice.difficulty" = "Difficulty";
+"practice.exercises" = "Exercises";
+"practice.completed" = "Completed";
+"practice.unlockPrevious" = "Complete previous levels to unlock";
+
+// MARK: - Explore
+"explore.title" = "Explore";
+"explore.concepts" = "Concepts";
+"explore.glossary" = "Glossary";
+"explore.resources" = "Resources";
+"explore.featured" = "Featured";
+
+// MARK: - Profile
+"profile.title" = "Profile";
+"profile.stats" = "Statistics";
+"profile.achievements" = "Achievements";
+"profile.settings" = "Settings";
+"profile.logout" = "Logout";
+"profile.member" = "Member for %@";
+
+// MARK: - Auth
+"auth.login" = "Login";
+"auth.signup" = "Sign Up";
+"auth.email" = "Email";
+"auth.password" = "Password";
+"auth.confirmPassword" = "Confirm Password";
+"auth.username" = "Username";
+"auth.forgotPassword" = "Forgot Password?";
+"auth.dontHaveAccount" = "Don't have an account?";
+"auth.alreadyHaveAccount" = "Already have an account?";
+"auth.welcome" = "Welcome Back";
+"auth.createAccount" = "Create Account";
+
+// MARK: - Quantum Concepts
+"concept.qubit" = "Qubit";
+"concept.superposition" = "Superposition";
+"concept.entanglement" = "Entanglement";
+"concept.measurement" = "Measurement";
+"concept.gate" = "Quantum Gate";
+"concept.blochSphere" = "Bloch Sphere";
+"concept.amplitude" = "Probability Amplitude";
+"concept.interference" = "Quantum Interference";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.learning" = "Learning";
+"settings.appearance" = "Appearance";
+"settings.notifications" = "Notifications";
+"settings.about" = "About";
+"settings.darkMode" = "Dark Mode";
+"settings.soundEffects" = "Sound Effects";
+"settings.hapticFeedback" = "Haptic Feedback";
+"settings.dailyReminders" = "Daily Reminders";
+
+// MARK: - Errors
+"error.networkError" = "Network error. Please check your connection.";
+"error.loadingFailed" = "Failed to load content. Please try again.";
+"error.invalidEmail" = "Invalid email format";
+"error.weakPassword" = "Password must be at least 6 characters";
+"error.passwordMismatch" = "Passwords do not match";
