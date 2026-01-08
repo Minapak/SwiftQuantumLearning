@@ -699,11 +699,11 @@
 "userType.investor.desc" = "Den nächsten Billionen-Markt verstehen";
 
 // MARK: - Marketing - Germany - General
-"marketing.germany.headline" = "„Quantentalent" — Deutschlands Schlüsselkompetenz für 2030";
+"marketing.germany.headline" = "'Quantentalent' — Deutschlands Schlüsselkompetenz für 2030";
 "marketing.germany.subheadline" = "Was TU München und ETH Zürich Absolventen als Zukunftsskill wählen";
 "marketing.germany.point1" = "BMBF-Quantenstrategie: 2 Milliarden € Förderung — Jetzt einsteigen und Vorsprung sichern";
 "marketing.germany.point2" = "Quantenpositionen bei SAP, Bosch, BMW: 150.000€+ Jahresgehalt";
-"marketing.germany.point3" = "„Ich verstehe Quantencomputing" — Ein Satz, der Sie von 99% der Bewerber abhebt";
+"marketing.germany.point3" = "'Ich verstehe Quantencomputing' — Ein Satz, der Sie von 99% der Bewerber abhebt";
 "marketing.germany.cta" = "Werden Sie Deutschlands erste Quantengeneration";
 
 // MARK: - Marketing - For Developers
@@ -716,17 +716,17 @@
 
 // MARK: - Marketing - For Students
 "marketing.student.headline" = "Was TU München Studenten heimlich lernen";
-"marketing.student.subheadline" = "Können Sie im Vorstellungsgespräch sagen: „Ich lerne Quantencomputing"?";
+"marketing.student.subheadline" = "Können Sie im Vorstellungsgespräch sagen: 'Ich lerne Quantencomputing'?";
 "marketing.student.point1" = "Quantum-Praktikum Konkurrenz: 100:1 — Ohne Vorbereitung wird es zu spät";
-"marketing.student.point2" = "„Ich kann AI" ist 2025 kein Differenzierungsmerkmal mehr";
+"marketing.student.point2" = "'Ich kann AI' ist 2025 kein Differenzierungsmerkmal mehr";
 "marketing.student.point3" = "37% der FAANG-Kandidaten lernen bereits Quantencomputing";
 "marketing.student.cta" = "Heben Sie sich von der Konkurrenz ab";
 
 // MARK: - Marketing - For SF Fans
-"marketing.sf.headline" = "Die Wissenschaft von „Interstellar" — in Ihren Händen";
+"marketing.sf.headline" = "Die Wissenschaft von 'Interstellar' — in Ihren Händen";
 "marketing.sf.subheadline" = "Die Quantenwelt aus der Science-Fiction wird auf Ihrem Smartphone Realität";
 "marketing.sf.point1" = "Schrödingers Katze tatsächlich simulieren";
-"marketing.sf.point2" = "Quantenverschränkung — was Einstein „spukhafte Fernwirkung" nannte";
+"marketing.sf.point2" = "Quantenverschränkung — was Einstein 'spukhafte Fernwirkung' nannte";
 "marketing.sf.point3" = "Auf echter IBM-Hardware echte Quantenberechnung durchführen";
 "marketing.sf.cta" = "Öffnen Sie das Tor zur Sci-Fi-Welt";
 
@@ -734,7 +734,7 @@
 "marketing.investor.headline" = "Quantencomputing-Markt: 100 Milliarden Dollar bis 2030";
 "marketing.investor.subheadline" = "Investitionsentscheidungen basieren auf Verständnis";
 "marketing.investor.point1" = "IonQ, Rigetti, D-Wave — Können Sie erkennen, wer solide Technologie hat?";
-"marketing.investor.point2" = "Können Sie den Unterschied zwischen „Quantum Advantage" und „Quantum Supremacy" erklären?";
+"marketing.investor.point2" = "Können Sie den Unterschied zwischen 'Quantum Advantage' und 'Quantum Supremacy' erklären?";
 "marketing.investor.point3" = "30 Stunden mit dieser App und Sie können Quanten-Startup-Pitches bewerten";
 "marketing.investor.cta" = "Wissen für kluge Investments erwerben";
 
@@ -748,10 +748,10 @@
 "marketing.parent.cta" = "In die Zukunft Ihres Kindes investieren";
 
 // MARK: - Marketing - Fear Appeal (Germany)
-"marketing.fear.headline" = "„Ich kann KI" ist schon veraltet";
+"marketing.fear.headline" = "'Ich kann KI' ist schon veraltet";
 "marketing.fear.subheadline" = "Existiert Ihr Job noch in 2030?";
 "marketing.fear.point1" = "80% der traditionellen Programmierer werden durch KI ersetzt — Was haben die überlebenden 20% gemeinsam?";
-"marketing.fear.point2" = "„Quantum verstehe ich nicht" — Die typische Antwort von Abgelehnten";
+"marketing.fear.point2" = "'Quantum verstehe ich nicht' — Die typische Antwort von Abgelehnten";
 "marketing.fear.point3" = "Ihr Kollege lernt vielleicht heimlich Quantencomputing";
 
 // MARK: - Marketing - Class Preservation (Germany)
@@ -759,19 +759,19 @@
 "marketing.class.subheadline" = "Die nächste Grenze der Elite-Bildung";
 "marketing.class.point1" = "Auch Medizinstudenten lernen jetzt Quantencomputing";
 "marketing.class.point2" = "Quantentalent-Herkunft: TU München 25%, ETH Zürich 20%, andere Elite-Unis 30%";
-"marketing.class.point3" = "„Was die Nachhilfe nicht lehrt" — Echte Wettbewerbsfähigkeit";
+"marketing.class.point3" = "'Was die Nachhilfe nicht lehrt' — Echte Wettbewerbsfähigkeit";
 
 // MARK: - Marketing - Loss Aversion (Germany)
 "marketing.loss.headline" = "Dieses Jahr entscheidet den Unterschied";
 "marketing.loss.subheadline" = "Die goldene Ära des Quantenlernens: 2025-2027";
-"marketing.loss.point1" = "Nach 2028 ist es „zu spät eingestiegen" — First-Mover-Vorteil verschwindet";
+"marketing.loss.point1" = "Nach 2028 ist es 'zu spät eingestiegen' — First-Mover-Vorteil verschwindet";
 "marketing.loss.point2" = "Heute nicht zu lernen bedeutet, auf 100.000€ zukünftiges Gehalt zu verzichten";
 "marketing.loss.point3" = "Noch 5 Jahre bis Quantentalent-Angebot die Nachfrage trifft — dann Überangebot";
 
 // MARK: - Secret Document Campaign (Germany)
 "campaign.secret.title" = "【Achtung】Googles geheimer Quantenbericht";
 "campaign.secret.subtitle" = "Vertrauliche 2026-Prognosen durchgesickert";
-"campaign.secret.teaser" = "„Diese Informationen werden Ihre Karriereentscheidung ändern" — Ex-Google Quantum Team";
+"campaign.secret.teaser" = "'Diese Informationen werden Ihre Karriereentscheidung ändern' — Ex-Google Quantum Team";
 "campaign.secret.point1" = "3 Quantendurchbrüche, die 2026 realisiert werden";
 "campaign.secret.point2" = "Der wahre Grund, warum Google 100 Milliarden investiert";
 "campaign.secret.point3" = "Sonderkonditionen, die Google für Quantentalente vorbereitet hat";
@@ -822,7 +822,7 @@
 "report.comparison.ahead" = "In den Top %d%%";
 "report.comparison.onTrack" = "Lernt im Durchschnittstempo";
 "report.comparison.needsAttention" = "Benötigt mehr Aufmerksamkeit";
-"report.quote" = "„%@ hat diese Woche besonders im Bereich %@ Fortschritte gemacht. Als Nächstes empfehlen wir %@."";
+"report.quote" = "'%@ hat diese Woche besonders im Bereich %@ Fortschritte gemacht. Als Nächstes empfehlen wir %@.'";
 "report.share" = "Bericht teilen";
 "report.export" = "Als PDF exportieren";
 
@@ -852,8 +852,8 @@
 // MARK: - Social Proof
 "social.users" = "Über %@ Nutzer lernen bereits";
 "social.reviews" = "%@ Bewertung im App Store";
-"social.featured" = "Apple „App des Tages" Auswahl";
-"social.testimonial1" = "„Beim FAANG-Interview über Quantum sprechen zu können hat mich klar von anderen Kandidaten abgehoben" — TU München Doktorand";
-"social.testimonial2" = "„Mein Kind lernt jetzt jeden Tag von selbst" — Elternteil";
-"social.testimonial3" = "„Ich kann jetzt Quanten-Investments beurteilen" — VC-Investor";
+"social.featured" = "Apple 'App des Tages' Auswahl";
+"social.testimonial1" = "'Beim FAANG-Interview über Quantum sprechen zu können hat mich klar von anderen Kandidaten abgehoben' — TU München Doktorand";
+"social.testimonial2" = "'Mein Kind lernt jetzt jeden Tag von selbst' — Elternteil";
+"social.testimonial3" = "'Ich kann jetzt Quanten-Investments beurteilen' — VC-Investor";
 "social.company.logos" = "Unternehmen unserer Lernenden";

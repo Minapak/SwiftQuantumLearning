@@ -22,6 +22,18 @@
 "common.error" = "Error";
 "common.success" = "Success";
 "common.warning" = "Warning";
+"common.confirm" = "Confirm";
+"common.ok" = "OK";
+
+// MARK: - Settings
+"settings.language" = "Language";
+"settings.language.current" = "Current Language";
+"settings.language.select" = "Select Language";
+"settings.language.restart.title" = "Restart Required";
+"settings.language.restart.message" = "Please restart the app for the language change to take effect.";
+"settings.restartTutorial" = "Restart Tutorial";
+"settings.restartTutorial.title" = "Restart Tutorial?";
+"settings.restartTutorial.message" = "This will show the onboarding tutorial again.";
 
 // MARK: - Learning
 "learn.title" = "Learn";

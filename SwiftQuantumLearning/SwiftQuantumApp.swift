@@ -23,26 +23,36 @@ struct SwiftQuantumLearningApp: App {
     @StateObject private var exploreViewModel = ExploreViewModel()
     @StateObject private var profileViewModel = ProfileViewModel()
 
+    // Onboarding state for first-time users
+    @AppStorage(OnboardingKeys.hasCompletedOnboarding) private var hasCompletedOnboarding = false
+
     // Translation Manager for Solar Agent
     @ObservedObject private var translationManager = QuantumTranslationManager.shared
 
     var body: some Scene {
         WindowGroup {
-            // Always show MainTabView - login is optional for basic content
-            MainTabView()
-                .environmentObject(authViewModel)
-                .environmentObject(progressViewModel)
-                .environmentObject(achievementViewModel)
-                .environmentObject(homeViewModel)
-                .environmentObject(learnViewModel)
-                .environmentObject(practiceViewModel)
-                .environmentObject(exploreViewModel)
-                .environmentObject(profileViewModel)
-                .preferredColorScheme(.dark)
-                .onAppear {
-                    setupAppearance()
-                    initializeOdyssey()
+            Group {
+                if hasCompletedOnboarding {
+                    // Main app for returning users
+                    MainTabView()
+                        .environmentObject(authViewModel)
+                        .environmentObject(progressViewModel)
+                        .environmentObject(achievementViewModel)
+                        .environmentObject(homeViewModel)
+                        .environmentObject(learnViewModel)
+                        .environmentObject(practiceViewModel)
+                        .environmentObject(exploreViewModel)
+                        .environmentObject(profileViewModel)
+                } else {
+                    // Onboarding flow for first-time users
+                    OnboardingView(hasCompletedOnboarding: $hasCompletedOnboarding)
                 }
+            }
+            .preferredColorScheme(.dark)
+            .onAppear {
+                setupAppearance()
+                initializeOdyssey()
+            }
         }
     }
 

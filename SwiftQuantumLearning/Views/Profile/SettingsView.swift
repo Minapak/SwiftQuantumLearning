@@ -13,8 +13,17 @@ struct SettingsView: View {
     @AppStorage("darkModeEnabled") private var darkModeEnabled = true
     @AppStorage("hapticFeedback") private var hapticFeedback = true
     @AppStorage("soundEffects") private var soundEffects = true
+    @AppStorage(OnboardingKeys.selectedLanguage) private var selectedLanguageCode: String = ""
+    @AppStorage(OnboardingKeys.hasCompletedOnboarding) private var hasCompletedOnboarding = false
     @Environment(\.dismiss) var dismiss
-    
+    @State private var showLanguagePicker = false
+    @State private var showRestartAlert = false
+
+    // Get current selected language
+    private var currentLanguage: AppLanguage {
+        AppLanguage.supported.first { $0.code == selectedLanguageCode } ?? AppLanguage.supported.first!
+    }
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -22,6 +31,33 @@ struct SettingsView: View {
                 
                 ScrollView {
                     VStack(spacing: 20) {
+                        // Language Settings
+                        settingsSection(title: NSLocalizedString("settings.language", comment: "")) {
+                            Button(action: { showLanguagePicker = true }) {
+                                HStack {
+                                    Image(systemName: "globe")
+                                        .foregroundColor(.quantumCyan)
+                                        .frame(width: 24)
+
+                                    Text(NSLocalizedString("settings.language.current", comment: ""))
+                                        .foregroundColor(.textPrimary)
+
+                                    Spacer()
+
+                                    HStack(spacing: 6) {
+                                        Text(currentLanguage.flag)
+                                        Text(currentLanguage.nativeName)
+                                            .foregroundColor(.textSecondary)
+                                    }
+
+                                    Image(systemName: "chevron.right")
+                                        .font(.caption)
+                                        .foregroundColor(.textTertiary)
+                                }
+                                .padding(.vertical, 4)
+                            }
+                        }
+
                         // Learning Preferences
                         settingsSection(title: "Learning") {
                             ToggleRow(
@@ -87,7 +123,18 @@ struct SettingsView: View {
                                 }
                                 .padding(.vertical, 4)
                             }
-                            
+
+                            Button(action: { showRestartAlert = true }) {
+                                HStack {
+                                    Image(systemName: "arrow.counterclockwise")
+                                        .foregroundColor(.quantumOrange)
+                                    Text(NSLocalizedString("settings.restartTutorial", comment: ""))
+                                        .foregroundColor(.quantumOrange)
+                                    Spacer()
+                                }
+                                .padding(.vertical, 4)
+                            }
+
                             Button(action: {}) {
                                 HStack {
                                     Image(systemName: "trash.fill")
@@ -104,6 +151,18 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle("Settings")
+            .sheet(isPresented: $showLanguagePicker) {
+                LanguagePickerSheet(selectedLanguageCode: $selectedLanguageCode)
+            }
+            .alert(NSLocalizedString("settings.restartTutorial.title", comment: ""), isPresented: $showRestartAlert) {
+                Button(NSLocalizedString("common.cancel", comment: ""), role: .cancel) {}
+                Button(NSLocalizedString("common.confirm", comment: ""), role: .destructive) {
+                    hasCompletedOnboarding = false
+                    dismiss()
+                }
+            } message: {
+                Text(NSLocalizedString("settings.restartTutorial.message", comment: ""))
+            }
             #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
             #endif
@@ -197,24 +256,107 @@ struct LinkRow: View {
     let title: String
     let icon: String
     let url: URL
-    
+
     var body: some View {
         Link(destination: url) {
             HStack {
                 Image(systemName: icon)
                     .foregroundColor(.quantumCyan)
                     .frame(width: 24)
-                
+
                 Text(title)
                     .foregroundColor(.textPrimary)
-                
+
                 Spacer()
-                
+
                 Image(systemName: "arrow.up.right")
                     .font(.caption)
                     .foregroundColor(.textTertiary)
             }
             .padding(.vertical, 4)
+        }
+    }
+}
+
+// MARK: - Language Picker Sheet
+struct LanguagePickerSheet: View {
+    @Binding var selectedLanguageCode: String
+    @Environment(\.dismiss) var dismiss
+    @State private var showRestartAlert = false
+
+    var body: some View {
+        NavigationStack {
+            ZStack {
+                Color.bgDark.ignoresSafeArea()
+
+                ScrollView {
+                    VStack(spacing: 12) {
+                        ForEach(AppLanguage.supported) { language in
+                            Button(action: {
+                                if selectedLanguageCode != language.code {
+                                    selectedLanguageCode = language.code
+                                    UserDefaults.standard.set([language.code], forKey: "AppleLanguages")
+                                    showRestartAlert = true
+                                } else {
+                                    dismiss()
+                                }
+                            }) {
+                                HStack(spacing: 16) {
+                                    Text(language.flag)
+                                        .font(.system(size: 32))
+
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        Text(language.nativeName)
+                                            .font(.system(size: 17, weight: .semibold))
+                                            .foregroundColor(.white)
+
+                                        Text(language.name)
+                                            .font(.system(size: 14))
+                                            .foregroundColor(.textSecondary)
+                                    }
+
+                                    Spacer()
+
+                                    if selectedLanguageCode == language.code {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .font(.system(size: 24))
+                                            .foregroundColor(.quantumCyan)
+                                    }
+                                }
+                                .padding(16)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .fill(selectedLanguageCode == language.code ? Color.quantumCyan.opacity(0.15) : Color.bgCard)
+                                        .overlay(
+                                            RoundedRectangle(cornerRadius: 12)
+                                                .stroke(selectedLanguageCode == language.code ? Color.quantumCyan : Color.white.opacity(0.1), lineWidth: 1)
+                                        )
+                                )
+                            }
+                        }
+                    }
+                    .padding()
+                }
+            }
+            .navigationTitle(NSLocalizedString("settings.language.select", comment: ""))
+            #if os(iOS)
+            .navigationBarTitleDisplayMode(.inline)
+            #endif
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button(NSLocalizedString("common.cancel", comment: "")) {
+                        dismiss()
+                    }
+                    .foregroundColor(.quantumCyan)
+                }
+            }
+            .alert(NSLocalizedString("settings.language.restart.title", comment: ""), isPresented: $showRestartAlert) {
+                Button(NSLocalizedString("common.ok", comment: "")) {
+                    dismiss()
+                }
+            } message: {
+                Text(NSLocalizedString("settings.language.restart.message", comment: ""))
+            }
         }
     }
 }

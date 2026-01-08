@@ -225,8 +225,8 @@
 
 "lesson.principles2.2.title" = "量子纠缠 - 双胞胎心灵感应";
 "lesson.principles2.2.description" = "不论距离瞬间连接的奥秘";
-"lesson.principles2.2.content" = "**量子纠缠: 无法分离的粒子连接**\n\n量子纠缠的双胞胎:\n- 北京的粒子A\n- 上海的粒子B（1000公里远）\n- A向右旋转 → B瞬间向左旋转！\n\n**惊人之处**:\n- 比光还快！（瞬间！）\n- 没有信号却能连接\n- 爱因斯坦称之为"幽灵般的超距作用"";
-"lesson.principles2.2.mnemonic" = "量子纠缠 = 爱因斯坦的"幽灵"连接";
+"lesson.principles2.2.content" = "**量子纠缠: 无法分离的粒子连接**\n\n量子纠缠的双胞胎:\n- 北京的粒子A\n- 上海的粒子B（1000公里远）\n- A向右旋转 → B瞬间向左旋转！\n\n**惊人之处**:\n- 比光还快！（瞬间！）\n- 没有信号却能连接\n- 爱因斯坦称之为'幽灵般的超距作用'";
+"lesson.principles2.2.mnemonic" = "量子纠缠 = 爱因斯坦的'幽灵'连接";
 "lesson.principles2.2.difficulty" = "简单";
 
 "lesson.principles2.3.title" = "量子隧穿 - 穿墙术！";
@@ -294,7 +294,7 @@
 // MARK: - Track 5: Current Status
 "lesson.status5.1.title" = "谷歌Willow芯片 - 2024年突破";
 "lesson.status5.1.description" = "达到100量子比特，错误率减半";
-"lesson.status5.1.content" = "**Willow芯片成果（2024）**:\n\n1. 100+量子比特: 是Sycamore的53的两倍\n2. 错误率减半: ~1% → ~0.5%（突破！）\n3. 再次证明量子优势: 更现实的问题\n\n**意义**: 量子计算机实用化不是"是否"而是"何时"的问题";
+"lesson.status5.1.content" = "**Willow芯片成果（2024）**:\n\n1. 100+量子比特: 是Sycamore的53的两倍\n2. 错误率减半: ~1% → ~0.5%（突破！）\n3. 再次证明量子优势: 更现实的问题\n\n**意义**: 量子计算机实用化不是'是否'而是'何时'的问题";
 "lesson.status5.1.mnemonic" = "Willow = 以低错误率获胜";
 "lesson.status5.1.difficulty" = "中等";
 
@@ -699,11 +699,11 @@
 "userType.investor.desc" = "了解下一个万亿市场";
 
 // MARK: - Marketing - China - General
-"marketing.china.headline" = ""量子人才"——2030年大国博弈的核心资源";
+"marketing.china.headline" = "'量子人才'——2030年大国博弈的核心资源";
 "marketing.china.subheadline" = "清北学子正在学习的技能，你还在等什么？";
-"marketing.china.point1" = "国家"十四五"规划重点：量子科技——现在入场抢占先机";
+"marketing.china.point1" = "国家'十四五'规划重点：量子科技——现在入场抢占先机";
 "marketing.china.point2" = "量子领域人才年薪：一线城市起步100万+";
-"marketing.china.point3" = ""我懂量子计算"——面试中秒杀99%候选人的一句话";
+"marketing.china.point3" = "'我懂量子计算'——面试中秒杀99%候选人的一句话";
 "marketing.china.cta" = "成为中国量子人才第一代";
 
 // MARK: - Marketing - For Developers
@@ -716,9 +716,9 @@
 
 // MARK: - Marketing - For Students
 "marketing.student.headline" = "清华北大学生在偷偷学什么";
-"marketing.student.subheadline" = "秋招时你能说"我在学量子计算"吗？";
+"marketing.student.subheadline" = "秋招时你能说'我在学量子计算'吗？";
 "marketing.student.point1" = "量子实习岗位竞争比：100:1，现在不准备就来不及了";
-"marketing.student.point2" = ""我会AI"在2025年已经不是差异化优势了";
+"marketing.student.point2" = "'我会AI'在2025年已经不是差异化优势了";
 "marketing.student.point3" = "BAT/字节offer候选人中，37%正在学习量子计算";
 "marketing.student.cta" = "甩开竞争对手";
 
@@ -726,15 +726,15 @@
 "marketing.sf.headline" = "《三体》里的科学，现在你可以亲手操作";
 "marketing.sf.subheadline" = "科幻里看到的量子世界，现在在你的手机上变为现实";
 "marketing.sf.point1" = "亲手模拟薛定谔的猫实验";
-"marketing.sf.point2" = "量子纠缠——爱因斯坦称之为"鬼魅般的超距作用"";
+"marketing.sf.point2" = "量子纠缠——爱因斯坦称之为'鬼魅般的超距作用'";
 "marketing.sf.point3" = "在IBM真机上运行真正的量子计算";
 "marketing.sf.cta" = "打开通往科幻世界的大门";
 
 // MARK: - Marketing - For Investors
 "marketing.investor.headline" = "量子计算市场：2030年达到1000亿美元";
-"marketing.investor.subheadline" = "识别投资标的的眼光，来自于"理解"";
+"marketing.investor.subheadline" = "识别投资标的的眼光，来自于'理解'";
 "marketing.investor.point1" = "IonQ、Rigetti、D-Wave——你能分辨哪个是真材实料吗？";
-"marketing.investor.point2" = "你能解释"量子优势"和"量子霸权"的区别吗？";
+"marketing.investor.point2" = "你能解释'量子优势'和'量子霸权'的区别吗？";
 "marketing.investor.point3" = "用这个App学习30小时，你就能评估量子创业公司的路演";
 "marketing.investor.cta" = "获取聪明投资的知识";
 
@@ -748,10 +748,10 @@
 "marketing.parent.cta" = "投资孩子的未来";
 
 // MARK: - Marketing - Fear Appeal (China)
-"marketing.fear.headline" = ""我会AI"已经过时了";
+"marketing.fear.headline" = "'我会AI'已经过时了";
 "marketing.fear.subheadline" = "2030年，你的工作还存在吗？";
 "marketing.fear.point1" = "传统程序员的80%将被AI取代——存活下来的20%有什么共同点？";
-"marketing.fear.point2" = ""量子我不懂"——面试被刷的人的典型回答";
+"marketing.fear.point2" = "'量子我不懂'——面试被刷的人的典型回答";
 "marketing.fear.point3" = "你的同事可能正在偷偷学量子";
 
 // MARK: - Marketing - Class Preservation (China)
@@ -759,19 +759,19 @@
 "marketing.class.subheadline" = "精英教育的下一个前沿";
 "marketing.class.point1" = "准备考医学院的学生也在学量子计算的时代";
 "marketing.class.point2" = "量子人才出身：清华33%、北大22%、海外名校28%";
-"marketing.class.point3" = ""补习班不会教的"真正的竞争力";
+"marketing.class.point3" = "'补习班不会教的'真正的竞争力";
 
 // MARK: - Marketing - Loss Aversion (China)
 "marketing.loss.headline" = "这一年决定差距";
 "marketing.loss.subheadline" = "量子学习的黄金期：2025-2027";
-"marketing.loss.point1" = "2028年后就是"入场太晚"——先发优势消失";
+"marketing.loss.point1" = "2028年后就是'入场太晚'——先发优势消失";
 "marketing.loss.point2" = "今天不学的选择，就是放弃未来100万年薪的选择";
 "marketing.loss.point3" = "量子人才供给追上需求还有5年——之后就是内卷";
 
 // MARK: - Secret Document Campaign (China)
 "campaign.secret.title" = "【慎入】谷歌不想让你看到的量子报告";
 "campaign.secret.subtitle" = "原本作为内部机密的2026年预测被泄露";
-"campaign.secret.teaser" = ""知道这些信息，你的职业选择会改变"——前谷歌量子团队成员";
+"campaign.secret.teaser" = "'知道这些信息，你的职业选择会改变'——前谷歌量子团队成员";
 "campaign.secret.point1" = "2026年将实现的3个量子突破";
 "campaign.secret.point2" = "谷歌投入1000亿的真正原因";
 "campaign.secret.point3" = "谷歌为争夺量子人才准备的特殊待遇";
