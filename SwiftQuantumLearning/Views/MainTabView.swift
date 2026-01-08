@@ -116,18 +116,8 @@ struct MainTabView: View {
                 isLoggedIn: authViewModel.isLoggedIn
             )
 
-            // DEV Mode Badge - Top Right Corner
-            if SwiftQuantumLearningApp.isDebugMode || AuthService.shared.isAdmin {
-                VStack {
-                    HStack {
-                        Spacer()
-                        DevModeBadge()
-                    }
-                    Spacer()
-                }
-                .padding(.top, 50)
-                .padding(.trailing, 16)
-            }
+            // Admin Badge - Only for admin users (not for DEBUG mode)
+            // DEV mode badge removed for production release
         }
         .ignoresSafeArea(.keyboard)
         .onAppear {

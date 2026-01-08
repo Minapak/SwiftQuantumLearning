@@ -384,6 +384,10 @@ struct LanguageCard: View {
     var body: some View {
         Button(action: {
             QuantumTheme.Haptics.selection()
+            // Apply language immediately when selected
+            UserDefaults.standard.set([language.code], forKey: "AppleLanguages")
+            UserDefaults.standard.set(language.code, forKey: OnboardingKeys.selectedLanguage)
+            UserDefaults.standard.synchronize()
             onSelect()
         }) {
             VStack(spacing: 6) {

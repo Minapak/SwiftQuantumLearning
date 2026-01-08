@@ -26,8 +26,16 @@ struct SwiftQuantumLearningApp: App {
     // Onboarding state for first-time users
     @AppStorage(OnboardingKeys.hasCompletedOnboarding) private var hasCompletedOnboarding = false
 
+    // Selected language for immediate locale change
+    @AppStorage(OnboardingKeys.selectedLanguage) private var selectedLanguage = "en"
+
     // Translation Manager for Solar Agent
     @ObservedObject private var translationManager = QuantumTranslationManager.shared
+
+    // Computed locale based on selected language
+    private var currentLocale: Locale {
+        Locale(identifier: selectedLanguage)
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -48,6 +56,7 @@ struct SwiftQuantumLearningApp: App {
                     OnboardingView(hasCompletedOnboarding: $hasCompletedOnboarding)
                 }
             }
+            .environment(\.locale, currentLocale)
             .preferredColorScheme(.dark)
             .onAppear {
                 setupAppearance()
