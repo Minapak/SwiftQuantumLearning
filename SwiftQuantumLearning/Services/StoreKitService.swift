@@ -171,13 +171,36 @@ class StoreKitService: ObservableObject {
         subscriptionManager.saveSubscriptionInfo(newSubscriptionInfo)
     }
 
-    /// 프리미엄 여부 확인 (Admin bypass included)
+    /// 프리미엄 여부 확인 (Admin & Debug mode bypass included)
     var isPremium: Bool {
+        // DEV mode: Full premium access for testing all features
+        #if DEBUG
+        return true  // 개발모드에서는 항상 프리미엄
+        #endif
+
         // Admin gets full premium access
         if AuthService.shared.isAdmin {
             return true
         }
         return subscriptionInfo.isActive
+    }
+
+    /// 현재 구독 티어 반환 (DEV 모드 포함)
+    var currentTier: SubscriptionTier? {
+        #if DEBUG
+        return .premium  // DEV 모드에서는 최고 티어
+        #endif
+
+        if AuthService.shared.isAdmin {
+            return .premium
+        }
+
+        guard let productId = subscriptionInfo.productId,
+              let subscriptionProduct = SubscriptionProductID(rawValue: productId) else {
+            return nil
+        }
+
+        return subscriptionProduct.tier
     }
 
     /// 특정 상품 가격 가져오기

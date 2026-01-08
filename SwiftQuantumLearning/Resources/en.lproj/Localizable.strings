@@ -432,13 +432,13 @@
 "subscription.tier.premium" = "Premium";
 
 "subscription.pro.monthly.name" = "Pro Monthly";
-"subscription.pro.monthly.description" = "Essential features, billed monthly";
+"subscription.pro.monthly.description" = "Unlock all learning content with monthly billing. Access all 9 tracks and 36+ lessons in SwiftQuantum Learning.";
 "subscription.pro.yearly.name" = "Pro Yearly";
-"subscription.pro.yearly.description" = "Essential features, billed annually (save 40%)";
+"subscription.pro.yearly.description" = "Unlock all learning content with annual billing. Save over 35% compared to monthly. Access all 9 tracks and 36+ lessons.";
 "subscription.premium.monthly.name" = "Premium Monthly";
-"subscription.premium.monthly.description" = "All features, billed monthly";
+"subscription.premium.monthly.description" = "Full access plus priority support and advanced analytics. Includes real IBM QPU access and O1 visa evidence tracking in SwiftQuantum Learning.";
 "subscription.premium.yearly.name" = "Premium Yearly";
-"subscription.premium.yearly.description" = "All features, billed annually (save 40%)";
+"subscription.premium.yearly.description" = "Full access plus priority support and advanced analytics. Save over 25% with annual billing. Best value for serious quantum learners.";
 
 "subscription.status.free" = "Free";
 "subscription.status.premium" = "Premium";

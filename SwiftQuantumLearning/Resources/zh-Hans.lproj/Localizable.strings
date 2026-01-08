@@ -420,13 +420,13 @@
 "subscription.tier.premium" = "高级版";
 
 "subscription.pro.monthly.name" = "专业版月付";
-"subscription.pro.monthly.description" = "基础功能，按月付费";
+"subscription.pro.monthly.description" = "按月付费解锁所有学习内容。在SwiftQuantum Learning中访问9个专题、36节以上的课程。";
 "subscription.pro.yearly.name" = "专业版年付";
-"subscription.pro.yearly.description" = "基础功能，按年付费（省40%）";
+"subscription.pro.yearly.description" = "按年付费解锁所有学习内容。比月付节省35%以上。访问9个专题、36节以上的课程。";
 "subscription.premium.monthly.name" = "高级版月付";
-"subscription.premium.monthly.description" = "全部功能，按月付费";
+"subscription.premium.monthly.description" = "享受全部功能、优先支持和高级分析。在SwiftQuantum Learning中包含真实IBM QPU访问和O1签证证据追踪。";
 "subscription.premium.yearly.name" = "高级版年付";
-"subscription.premium.yearly.description" = "全部功能，按年付费（省40%）";
+"subscription.premium.yearly.description" = "享受全部功能、优先支持和高级分析。年付节省25%以上。为认真学习量子计算的用户提供最佳价值。";
 
 "subscription.status.free" = "免费";
 "subscription.status.premium" = "高级版";

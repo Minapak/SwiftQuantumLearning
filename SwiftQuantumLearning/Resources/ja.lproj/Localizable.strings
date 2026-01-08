@@ -420,13 +420,13 @@
 "subscription.tier.premium" = "プレミアム";
 
 "subscription.pro.monthly.name" = "プロ月額";
-"subscription.pro.monthly.description" = "基本機能、毎月請求";
+"subscription.pro.monthly.description" = "すべての学習コンテンツを月額でご利用いただけます。SwiftQuantum Learningで9つのトラック、36以上のレッスンにアクセスできます。";
 "subscription.pro.yearly.name" = "プロ年額";
-"subscription.pro.yearly.description" = "基本機能、年間請求（40%お得）";
+"subscription.pro.yearly.description" = "すべての学習コンテンツを年額でご利用いただけます。月額に比べて35%以上お得です。9つのトラック、36以上のレッスンにアクセスできます。";
 "subscription.premium.monthly.name" = "プレミアム月額";
-"subscription.premium.monthly.description" = "全機能、毎月請求";
+"subscription.premium.monthly.description" = "すべての機能と優先サポート、高度な分析をご利用いただけます。SwiftQuantum Learningで実際のIBM QPUアクセスとO1ビザ証拠追跡が含まれます。";
 "subscription.premium.yearly.name" = "プレミアム年額";
-"subscription.premium.yearly.description" = "全機能、年間請求（40%お得）";
+"subscription.premium.yearly.description" = "すべての機能と優先サポート、高度な分析をご利用いただけます。年額で25%以上お得です。本格的な量子学習者に最適な価値です。";
 
 "subscription.status.free" = "無料";
 "subscription.status.premium" = "プレミアム";

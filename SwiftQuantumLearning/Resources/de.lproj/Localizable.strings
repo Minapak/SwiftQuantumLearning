@@ -420,13 +420,13 @@
 "subscription.tier.premium" = "Premium";
 
 "subscription.pro.monthly.name" = "Pro Monatlich";
-"subscription.pro.monthly.description" = "Grundfunktionen, monatliche Abrechnung";
+"subscription.pro.monthly.description" = "Schalten Sie alle Lerninhalte mit monatlicher Abrechnung frei. Zugang zu 9 Tracks und über 36 Lektionen in SwiftQuantum Learning.";
 "subscription.pro.yearly.name" = "Pro Jährlich";
-"subscription.pro.yearly.description" = "Grundfunktionen, jährliche Abrechnung (40% sparen)";
+"subscription.pro.yearly.description" = "Schalten Sie alle Lerninhalte mit jährlicher Abrechnung frei. Sparen Sie über 35% im Vergleich zum Monatsabo. Zugang zu 9 Tracks und über 36 Lektionen.";
 "subscription.premium.monthly.name" = "Premium Monatlich";
-"subscription.premium.monthly.description" = "Alle Funktionen, monatliche Abrechnung";
+"subscription.premium.monthly.description" = "Voller Zugang plus Prioritäts-Support und erweiterte Analysen. Beinhaltet echten IBM QPU-Zugang und O1-Visa-Nachweiserfassung in SwiftQuantum Learning.";
 "subscription.premium.yearly.name" = "Premium Jährlich";
-"subscription.premium.yearly.description" = "Alle Funktionen, jährliche Abrechnung (40% sparen)";
+"subscription.premium.yearly.description" = "Voller Zugang plus Prioritäts-Support und erweiterte Analysen. Sparen Sie über 25% mit dem Jahresabo. Der beste Wert für ernsthafte Quanten-Lernende.";
 
 "subscription.status.free" = "Kostenlos";
 "subscription.status.premium" = "Premium";

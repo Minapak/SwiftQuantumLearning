@@ -28,10 +28,10 @@ enum SubscriptionTier: String, CaseIterable {
 
 // MARK: - Subscription Product ID
 enum SubscriptionProductID: String, CaseIterable {
-    case proMonthly = "com.swiftquantum.subscription.pro.monthly"
-    case premiumMonthly = "com.swiftquantum.subscription.premium.monthly"
-    case proYearly = "com.swiftquantum.subscription.pro.yearly"
-    case premiumYearly = "com.swiftquantum.subscription.premium.yearly"
+    case proMonthly = "com.swiftquantumlearning.pro.monthly"
+    case proYearly = "com.swiftquantumlearning.pro.yearly"
+    case premiumMonthly = "com.swiftquantumlearning.premium.monthly"
+    case premiumYearly = "com.swiftquantumlearning.premium.yearly"
 
     var displayName: String {
         switch self {
