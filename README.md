@@ -1,151 +1,444 @@
-# SwiftQuantumLearning
+# SwiftQuantum Learning
 
-## The Quantum Engineer's Essential Workstation for 2026
+## The Quantum Odyssey - 2026 Premium Quantum Education Platform
 
 [![iOS](https://img.shields.io/badge/iOS-16%2B-blue)](https://developer.apple.com/ios/)
+[![macOS](https://img.shields.io/badge/macOS-13%2B-blue)](https://developer.apple.com/macos/)
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange)](https://swift.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Harvard-MIT](https://img.shields.io/badge/Research-Harvard--MIT%202026-purple)](https://www.nature.com)
+[![Languages](https://img.shields.io/badge/Languages-5-green)]()
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)]()
 
-A premium iOS/macOS application that combines quantum computing education with real hardware integration, based on the **Harvard-MIT 2026 breakthrough research** on 3,000-qubit continuous operation architecture.
+---
+
+## Language / 언어 / 言語 / 语言 / Sprache
+
+| [English](#english) | [한국어](#한국어-korean) | [日本語](#日本語-japanese) | [简体中文](#简体中文-chinese) | [Deutsch](#deutsch-german) |
+|:---:|:---:|:---:|:---:|:---:|
 
 ---
+
+# English
+
+The world's first mobile quantum simulator based on **Harvard-MIT 2026 research** with **real IBM QPU** integration platform.
 
 ## Overview
 
-SwiftQuantumLearning bridges the gap between quantum theory and practical application. Built with SwiftUI, **SwiftQuantum** library integration, and **QuantumBridge** cloud connectivity, this platform transforms how engineers learn and deploy quantum algorithms.
+SwiftQuantum Learning is a **premium education platform** that provides everything you need to become a quantum engineer—from quantum computing theory to actual IBM QPU deployment.
 
-### Key Research Foundation (Nature, January 2026)
+### Research Foundation (Nature, January 2026)
 
-Harvard-MIT collaboration achieved:
-- **3,000 Qubit Array**: Continuous neutral atom operation
-- **2+ Hour Runtime**: Optical lattice conveyor belt atom replenishment
+Based on groundbreaking achievements by Harvard-MIT joint research team:
+- **3,000 Qubit Array**: Continuous operation of neutral atoms
+- **2+ Hour Runtime**: Atom replenishment via optical lattice conveyor belt
 - **96+ Logical Qubits**: Fault-tolerant architecture demonstration
-- **99.85% Fidelity**: Through active error correction
+- **99.85% Fidelity**: High fidelity through active error correction
 
----
+## The Quantum Odyssey - 4 Frame Navigation
 
-## 2026 Premium Features
+| Frame | Name | Description | Access |
+|-------|------|-------------|--------|
+| 🎓 | **Campus Hub** | 13-level learning roadmap (beginner to advanced) | Free |
+| 🔬 | **Laboratory** | Interactive practice & Bloch sphere | Free |
+| 🌉 | **Bridge Terminal** | IBM QPU deployment & hardware comparison | Premium |
+| 📊 | **Portfolio** | O1 visa evidence dashboard | Premium |
 
-### Quantum Factory (NEW)
+## Key Features
 
-Transform learning into production-ready algorithms:
+### 1. Learning Tracks (13 Levels)
 
-| Feature | Description |
-|---------|-------------|
-| **Circuit Builder** | Visual drag-and-drop quantum circuit design |
-| **One-Tap Deployment** | Send circuits directly to QuantumBridge cloud |
-| **Real-Time Noise Visualization** | Monitor decoherence, gate errors, and atom loss |
-| **Harvard-MIT Continuous Mode** | Experience 2+ hour operation simulation |
-
-### Operation Modes
-
-| Mode | Max Qubits | Tier | Description |
-|------|------------|------|-------------|
-| **Standard** | 8 | Free | Basic quantum simulation |
-| **Continuous** | 64 | Pro | Harvard-MIT architecture simulation |
-| **Fault-Tolerant** | 256 | Enterprise | 96+ logical qubits with error correction |
-
-### Agentic Upsell AI Engine
-
-Intelligent upgrade recommendation system:
-
-| Feature | Description |
-|---------|-------------|
-| **Error Analysis** | Real-time circuit error rate detection |
-| **Loss Aversion Messaging** | "Your Algorithm Needs Error Correction" prompts |
-| **Personalized Recommendations** | AI-based tier suggestions based on usage patterns |
-| **Push Notifications** | Smart timing for upgrade prompts |
-
-### Bridge Marketplace
-
-Real-time quantum hardware queue management:
-
-| Backend | Queue Time | Qubits | Tier Required |
-|---------|------------|--------|---------------|
-| **IBM Brisbane** | ~45 min | 127 | Pro |
-| **IBM Osaka** | ~30 min | 127 | Pro |
-| **IBM Kyoto** | ~60 min | 127 | Pro |
-| **QuantumBridge Priority** | ~5 min | 256 | Enterprise |
-
-**Miami Night Theme**: Animated particle visualization with cyan/yellow orbs representing queue positions.
-
-### Harvard-MIT Digital Twin
-
-3D visualization of the 2026 breakthrough architecture:
-
-| Feature | Description |
-|---------|-------------|
-| **8x8 Optical Lattice** | Real-time atom state visualization |
-| **Conveyor Belt Animation** | Atom replenishment process simulation |
-| **Live Metrics** | Coherence %, Fidelity %, Atom Loss/Replenish counts |
-| **Research Info** | Nature 2026 paper tooltips and references |
-
-### Global Contribution Index
-
-O1 visa evidence dashboard for international recognition:
-
-| Metric | Description |
-|--------|-------------|
-| **2,847+ Users** | Global platform adoption |
-| **47 Countries** | International reach |
-| **15,623+ Contributions** | Community engagement |
-| **Leaderboard** | Ranking system with monthly reports |
-
-### Quantum Bloomberg Terminal
-
-Research news aggregation for quantum professionals:
-
-| Feature | Description |
-|---------|-------------|
-| **Market Ticker** | Live stock prices (IONQ, RGTI, QBTS, QUBT) |
-| **Featured Articles** | Harvard-MIT 2026 Nature paper highlights |
-| **Category Filters** | Hardware, Algorithms, Error Correction, Applications, Theory, Software |
-| **DOI Integration** | Direct links to academic papers |
-
----
-
-## Advanced Courses (Levels 9-13)
-
-### Pro Tier ($9.99/month)
-
+**Free Tier (Levels 1-5)**
 | Level | Title | Content | XP |
 |-------|-------|---------|-----|
-| 9 | **Bell States & Entanglement** | Create and verify maximally entangled qubit pairs | 150 |
-| 10 | **Grover's Search** | O(√N) quantum search algorithm implementation | 200 |
-| 11 | **Simon's Algorithm** | Exponential advantage for hidden period problems | 180 |
+| 1 | Quantum Basics | Qubits & superposition | 100 |
+| 2 | Quantum Gates | Pauli, Hadamard gates | 150 |
+| 3 | Entanglement | Entanglement & Bell states | 200 |
+| 4 | Algorithms Intro | Quantum algorithm basics | 250 |
+| 5 | Bloch Sphere | Quantum state visualization | 300 |
 
-### Enterprise Tier ($29.99/month)
-
+**Premium Tier (Levels 6-13)**
 | Level | Title | Content | XP |
 |-------|-------|---------|-----|
-| 12 | **Quantum Error Correction** | Bit-flip, Phase-flip, Shor, Surface, BOSS codes | 250 |
-| 13 | **IBM Quantum Integration** | Deploy to real IBM Quantum hardware | 300 |
+| 6 | Circuit Design | Circuit design principles | 350 |
+| 7 | Error Correction | Error correction basics | 400 |
+| 8 | Advanced Gates | Multi-qubit gates | 450 |
+| 9 | Bell States | Maximally entangled states | 200 |
+| 10 | Grover's Algorithm | O(√N) search algorithm | 550 |
+| 11 | Simon's Algorithm | Exponential speedup | 600 |
+| 12 | QEC Advanced | Surface, Steane, Shor, BOSS codes | 650 |
+| 13 | IBM Integration | Real QPU deployment | 1000 |
+
+### 2. Quantum Factory
+
+| Feature | Description |
+|---------|-------------|
+| **Circuit Builder** | Drag-and-drop quantum circuit design |
+| **One-Tap Deployment** | Instant deployment via QuantumBridge |
+| **Real-Time Noise** | Harvard-MIT 2026 noise model visualization |
+| **Continuous Mode** | 2+ hour continuous operation simulation |
+
+### 3. QuantumBridge Cloud Integration
+
+| Backend | Qubits | Queue Time | Tier |
+|---------|--------|------------|------|
+| IBM Brisbane | 127 | ~45 min | Pro |
+| IBM Osaka | 127 | ~30 min | Pro |
+| IBM Kyoto | 127 | ~60 min | Pro |
+| QuantumBridge Priority | 256 | ~5 min | Enterprise |
+
+### 4. Harvard-MIT Digital Twin
+
+- **8x8 Optical Lattice**: Real-time atom state visualization
+- **Conveyor Belt Animation**: Atom replenishment process
+- **Live Metrics**: Coherence %, Fidelity %, Atom Loss/Replenish
+
+### 5. Global Contribution Index (O1 Visa Evidence)
+
+| Metric | Value |
+|--------|-------|
+| Global Users | 2,847+ |
+| Countries | 47 |
+| Contributions | 15,623+ |
+| Monthly Reports | O1 visa evidence document generation |
+
+### 6. Solar Agent (AI Companion)
+
+Multilingual AI learning companion:
+- Encouragement/Tips/Celebration/Challenge/Fire Boost messages (5 types each)
+- Fire Energy system (0-100%)
+- Terminology adaptation by expertise level (beginner/intermediate/advanced)
+
+## Localization (5 Languages)
+
+The app supports **5 languages**, each using **natural, localized expressions** and **cultural references**.
+
+| Language | Code | Keys | Cultural References |
+|----------|------|------|---------------------|
+| **English** | en | 780+ | Harvard-MIT, Silicon Valley, FAANG |
+| **Korean** | ko | 780+ | Daechi-dong, SKY universities, Samsung/Naver |
+| **Japanese** | ja | 860+ | Tokyo/Kyoto University, Kaisei/Nada, GAFAM Japan |
+| **Chinese** | zh-Hans | 860+ | Tsinghua/Peking, BAT/ByteDance, 14th Five-Year Plan |
+| **German** | de | 860+ | TU München, ETH Zürich, BMBF, SAP |
+
+## Subscription Tiers
+
+| Tier | Monthly | Yearly | Qubits | Features |
+|------|---------|--------|--------|----------|
+| **Free** | - | - | 8 | Level 1-5, basic simulation |
+| **Pro** | $9.99 | $71.88 (40% off) | 64 | Full content, continuous mode, 100 credits/month |
+| **Enterprise** | $29.99 | $215.88 (40% off) | 256 | IBM QPU, priority queue, 1000 credits/month |
+
+## Requirements
+
+- **iOS**: 16.0+
+- **macOS**: 13.0+
+- **Xcode**: 15.0+
+- **Swift**: 5.9+
+
+## Installation
+
+```bash
+# Clone repository
+git clone https://github.com/your-org/SwiftQuantumLearning.git
+
+# Open in Xcode
+cd SwiftQuantumLearning
+open SwiftQuantumLearning.xcodeproj
+
+# Build and Run (Cmd+R)
+```
 
 ---
 
-## Subscription Pricing
+# 한국어 (Korean)
 
-### Anchoring Strategy (Decoy Effect)
+세계 최초 **Harvard-MIT 2026 연구 기반** 모바일 양자 시뮬레이터 + **실제 IBM QPU** 연동 플랫폼
 
-| Tier | Monthly | Yearly | Save | Best For |
-|------|---------|--------|------|----------|
-| **Basic** | Free | - | - | Casual exploration |
-| **Pro** | $9.99 | $71.88 | 40% | Active learners |
-| **Enterprise** | $29.99 | $215.88 | 40% | Professional quantum engineers |
+## 개요
 
-### Feature Comparison
+SwiftQuantum Learning은 양자 컴퓨팅 이론 학습부터 실제 IBM QPU 배포까지, 양자 엔지니어가 되기 위한 모든 것을 제공하는 **프리미엄 교육 플랫폼**입니다.
 
-| Feature | Basic | Pro | Enterprise |
-|---------|-------|-----|------------|
-| Learning Tracks | Beginner | All + Advanced | All + Expert |
-| Max Qubits | 8 | 64 | 256 |
-| Continuous Operation | - | Yes | Yes |
-| Error Correction Layers | - | Basic | Unlimited |
-| QuantumBridge Credits | - | 100/month | 1,000/month |
-| IBM Quantum Access | - | - | Yes |
-| Priority Support | - | Yes | Dedicated |
+### 연구 기반 (Nature, 2026년 1월)
+
+Harvard-MIT 공동 연구팀의 획기적 성과 기반:
+- **3,000 큐비트 어레이**: 중성 원자 연속 운영
+- **2시간 이상 런타임**: 광학 격자 컨베이어 벨트 원자 보충
+- **96개 이상 논리 큐비트**: Fault-Tolerant 아키텍처 실증
+- **99.85% 충실도**: 능동적 오류 정정을 통한 고충실도
+
+## The Quantum Odyssey - 4프레임 네비게이션
+
+| 프레임 | 이름 | 설명 | 접근 |
+|-------|------|------|------|
+| 🎓 | **캠퍼스 허브** | 13레벨 학습 로드맵 (기초→고급) | 무료 |
+| 🔬 | **연구실** | 인터랙티브 실습 & 블로흐 구면 | 무료 |
+| 🌉 | **브릿지 터미널** | IBM QPU 배포 & 하드웨어 비교 | 프리미엄 |
+| 📊 | **포트폴리오** | O1 비자 에비던스 대시보드 | 프리미엄 |
+
+## 핵심 기능
+
+### 1. 학습 트랙 (13 레벨)
+
+**무료 티어 (레벨 1-5)**
+| 레벨 | 제목 | 내용 | XP |
+|------|------|------|-----|
+| 1 | 양자 기초 | 큐비트 & 중첩 | 100 |
+| 2 | 양자 게이트 | 파울리, 하다마드 게이트 | 150 |
+| 3 | 얽힘 | 얽힘 & 벨 상태 | 200 |
+| 4 | 알고리즘 기초 | 양자 알고리즘 기초 | 250 |
+| 5 | 블로흐 구면 | 양자 상태 시각화 | 300 |
+
+**프리미엄 티어 (레벨 6-13)**
+| 레벨 | 제목 | 내용 | XP |
+|------|------|------|-----|
+| 6 | 회로 설계 | 회로 설계 원리 | 350 |
+| 7 | 오류 정정 | 오류 정정 기초 | 400 |
+| 8 | 고급 게이트 | 다중 큐비트 게이트 | 450 |
+| 9 | 벨 상태 | 최대 얽힘 상태 | 200 |
+| 10 | 그로버 알고리즘 | O(√N) 검색 알고리즘 | 550 |
+| 11 | 사이먼 알고리즘 | 지수적 속도 향상 | 600 |
+| 12 | QEC 고급 | Surface, Steane, Shor, BOSS 코드 | 650 |
+| 13 | IBM 통합 | 실제 QPU 배포 | 1000 |
+
+### 2. 양자 팩토리
+
+| 기능 | 설명 |
+|------|------|
+| **회로 빌더** | 드래그앤드롭 양자 회로 설계 |
+| **원탭 배포** | QuantumBridge를 통한 즉시 배포 |
+| **실시간 노이즈** | Harvard-MIT 2026 노이즈 모델 시각화 |
+| **연속 모드** | 2시간 이상 연속 운영 시뮬레이션 |
+
+### 3. 구독 티어
+
+| 티어 | 월간 | 연간 | 큐비트 | 기능 |
+|------|------|------|--------|------|
+| **무료** | - | - | 8 | 레벨 1-5, 기본 시뮬레이션 |
+| **프로** | $9.99 | $71.88 (40% ↓) | 64 | 전체 콘텐츠, 연속 모드, 월 100 크레딧 |
+| **엔터프라이즈** | $29.99 | $215.88 (40% ↓) | 256 | IBM QPU, 우선 대기열, 월 1000 크레딧 |
+
+### 타겟 오디언스
+
+| 유형 | 핵심 메시지 |
+|------|-------------|
+| **학생** | 빅테크 취업, 포트폴리오 차별화 |
+| **학부모** | 자녀 미래 투자, 뇌 가소성 |
+| **개발자** | 커리어 업그레이드, 대체 불가능 스킬 |
+| **SF 팬** | 인터스텔라, 양자 세계 체험 |
+| **투자자** | 딥테크 이해, 스타트업 평가 |
+
+---
+
+# 日本語 (Japanese)
+
+世界初の**ハーバード-MIT 2026研究基盤**モバイル量子シミュレーター + **実際のIBM QPU**統合プラットフォーム
+
+## 概要
+
+SwiftQuantum Learningは、量子コンピューティング理論の学習から実際のIBM QPUデプロイまで、量子エンジニアになるために必要なすべてを提供する**プレミアム教育プラットフォーム**です。
+
+### 研究基盤（Nature、2026年1月）
+
+ハーバード-MIT共同研究チームの画期的な成果に基づく：
+- **3,000キュービットアレイ**：中性原子の連続運転
+- **2時間以上のランタイム**：光学格子コンベアベルトによる原子補充
+- **96以上の論理キュービット**：フォールトトレラントアーキテクチャの実証
+- **99.85%の忠実度**：アクティブエラー訂正による高忠実度
+
+## The Quantum Odyssey - 4フレームナビゲーション
+
+| フレーム | 名前 | 説明 | アクセス |
+|---------|------|------|----------|
+| 🎓 | **キャンパスハブ** | 13レベル学習ロードマップ（基礎→上級） | 無料 |
+| 🔬 | **研究室** | インタラクティブ実習 & ブロッホ球面 | 無料 |
+| 🌉 | **ブリッジターミナル** | IBM QPUデプロイ & ハードウェア比較 | プレミアム |
+| 📊 | **ポートフォリオ** | O1ビザエビデンスダッシュボード | プレミアム |
+
+## 主要機能
+
+### 1. 学習トラック（13レベル）
+
+**無料ティア（レベル1-5）**
+| レベル | タイトル | 内容 | XP |
+|--------|----------|------|-----|
+| 1 | 量子基礎 | キュービット & 重ね合わせ | 100 |
+| 2 | 量子ゲート | パウリ、アダマールゲート | 150 |
+| 3 | エンタングルメント | もつれ & ベル状態 | 200 |
+| 4 | アルゴリズム入門 | 量子アルゴリズム基礎 | 250 |
+| 5 | ブロッホ球面 | 量子状態の可視化 | 300 |
+
+**プレミアムティア（レベル6-13）**
+| レベル | タイトル | 内容 | XP |
+|--------|----------|------|-----|
+| 6 | 回路設計 | 回路設計原理 | 350 |
+| 7 | エラー訂正 | エラー訂正基礎 | 400 |
+| 8 | 高度なゲート | マルチキュービットゲート | 450 |
+| 9 | ベル状態 | 最大もつれ状態 | 200 |
+| 10 | グローバーのアルゴリズム | O(√N)検索アルゴリズム | 550 |
+| 11 | サイモンのアルゴリズム | 指数関数的高速化 | 600 |
+| 12 | QEC上級 | Surface、Steane、Shor、BOSSコード | 650 |
+| 13 | IBM統合 | 実際のQPUデプロイ | 1000 |
+
+### 2. 量子ファクトリー
+
+| 機能 | 説明 |
+|------|------|
+| **回路ビルダー** | ドラッグ＆ドロップ量子回路設計 |
+| **ワンタップデプロイ** | QuantumBridgeによる即時デプロイ |
+| **リアルタイムノイズ** | ハーバード-MIT 2026ノイズモデル可視化 |
+| **連続モード** | 2時間以上の連続運転シミュレーション |
+
+### ターゲットオーディエンス
+
+| タイプ | 主要メッセージ |
+|--------|---------------|
+| **学生** | GAFAM就職、ポートフォリオ差別化 |
+| **保護者** | 子どもの未来への投資、脳の可塑性 |
+| **開発者** | キャリアアップグレード、代替不可能なスキル |
+| **SFファン** | インターステラー、量子の世界を体験 |
+| **投資家** | ディープテック理解、スタートアップ評価 |
+
+---
+
+# 简体中文 (Chinese)
+
+全球首个基于**哈佛-MIT 2026研究**的移动端量子模拟器 + **真实IBM QPU**集成平台
+
+## 概述
+
+SwiftQuantum Learning是一个**高端教育平台**，从量子计算理论学习到实际IBM QPU部署，为成为量子工程师提供所需的一切。
+
+### 研究基础（Nature，2026年1月）
+
+基于哈佛-MIT联合研究团队的突破性成果：
+- **3,000量子比特阵列**：中性原子连续运行
+- **2小时以上运行时间**：光学晶格传送带原子补充
+- **96+逻辑量子比特**：容错架构验证
+- **99.85%保真度**：通过主动纠错实现高保真度
+
+## The Quantum Odyssey - 4框架导航
+
+| 框架 | 名称 | 描述 | 访问 |
+|------|------|------|------|
+| 🎓 | **校园中心** | 13级学习路线图（入门→高级） | 免费 |
+| 🔬 | **实验室** | 交互式实践 & 布洛赫球 | 免费 |
+| 🌉 | **桥接终端** | IBM QPU部署 & 硬件比较 | 高级版 |
+| 📊 | **作品集** | O1签证证据仪表板 | 高级版 |
+
+## 核心功能
+
+### 1. 学习路径（13级）
+
+**免费版（1-5级）**
+| 级别 | 标题 | 内容 | XP |
+|------|------|------|-----|
+| 1 | 量子基础 | 量子比特 & 叠加 | 100 |
+| 2 | 量子门 | 泡利、阿达玛门 | 150 |
+| 3 | 纠缠 | 纠缠 & 贝尔态 | 200 |
+| 4 | 算法入门 | 量子算法基础 | 250 |
+| 5 | 布洛赫球 | 量子态可视化 | 300 |
+
+**高级版（6-13级）**
+| 级别 | 标题 | 内容 | XP |
+|------|------|------|-----|
+| 6 | 电路设计 | 电路设计原理 | 350 |
+| 7 | 纠错 | 纠错基础 | 400 |
+| 8 | 高级门 | 多量子比特门 | 450 |
+| 9 | 贝尔态 | 最大纠缠态 | 200 |
+| 10 | 格罗弗算法 | O(√N)搜索算法 | 550 |
+| 11 | 西蒙算法 | 指数级加速 | 600 |
+| 12 | QEC高级 | Surface、Steane、Shor、BOSS码 | 650 |
+| 13 | IBM集成 | 真实QPU部署 | 1000 |
+
+### 2. 量子工厂
+
+| 功能 | 描述 |
+|------|------|
+| **电路构建器** | 拖放式量子电路设计 |
+| **一键部署** | 通过QuantumBridge即时部署 |
+| **实时噪声** | 哈佛-MIT 2026噪声模型可视化 |
+| **连续模式** | 2小时以上连续运行模拟 |
+
+### 目标用户
+
+| 类型 | 核心信息 |
+|------|----------|
+| **学生** | BAT/字节就业，作品集差异化 |
+| **家长** | 子女未来投资，大脑可塑性 |
+| **开发者** | 职业升级，不可替代技能 |
+| **科幻迷** | 星际穿越，体验量子世界 |
+| **投资者** | 深科技理解，初创评估 |
+
+---
+
+# Deutsch (German)
+
+Der weltweit erste mobile Quantensimulator basierend auf **Harvard-MIT 2026 Forschung** mit **echter IBM QPU** Integration
+
+## Überblick
+
+SwiftQuantum Learning ist eine **Premium-Bildungsplattform**, die alles bietet, was Sie brauchen, um Quanteningenieur zu werden — von der Quantencomputing-Theorie bis zum tatsächlichen IBM QPU-Deployment.
+
+### Forschungsgrundlage (Nature, Januar 2026)
+
+Basierend auf bahnbrechenden Errungenschaften des Harvard-MIT Forschungsteams:
+- **3.000 Qubit-Array**: Kontinuierlicher Betrieb neutraler Atome
+- **2+ Stunden Laufzeit**: Atomauffüllung über optisches Gitter-Förderband
+- **96+ logische Qubits**: Demonstration fehlertoleranter Architektur
+- **99,85% Fidelity**: Hohe Treue durch aktive Fehlerkorrektur
+
+## The Quantum Odyssey - 4-Frame-Navigation
+
+| Frame | Name | Beschreibung | Zugang |
+|-------|------|--------------|--------|
+| 🎓 | **Campus Hub** | 13-Stufen-Lernpfad (Anfänger bis Fortgeschritten) | Kostenlos |
+| 🔬 | **Labor** | Interaktive Übungen & Bloch-Kugel | Kostenlos |
+| 🌉 | **Bridge Terminal** | IBM QPU Deployment & Hardware-Vergleich | Premium |
+| 📊 | **Portfolio** | O1-Visum Nachweisdashboard | Premium |
+
+## Hauptfunktionen
+
+### 1. Lernpfade (13 Stufen)
+
+**Kostenlose Stufe (Stufen 1-5)**
+| Stufe | Titel | Inhalt | XP |
+|-------|-------|--------|-----|
+| 1 | Quantengrundlagen | Qubits & Superposition | 100 |
+| 2 | Quantengatter | Pauli-, Hadamard-Gatter | 150 |
+| 3 | Verschränkung | Verschränkung & Bell-Zustände | 200 |
+| 4 | Algorithmen Intro | Quantenalgorithmus-Grundlagen | 250 |
+| 5 | Bloch-Kugel | Quantenzustandsvisualisierung | 300 |
+
+**Premium-Stufe (Stufen 6-13)**
+| Stufe | Titel | Inhalt | XP |
+|-------|-------|--------|-----|
+| 6 | Schaltungsdesign | Schaltungsdesign-Prinzipien | 350 |
+| 7 | Fehlerkorrektur | Fehlerkorrektur-Grundlagen | 400 |
+| 8 | Erweiterte Gatter | Multi-Qubit-Gatter | 450 |
+| 9 | Bell-Zustände | Maximal verschränkte Zustände | 200 |
+| 10 | Grover-Algorithmus | O(√N) Suchalgorithmus | 550 |
+| 11 | Simon-Algorithmus | Exponentielle Beschleunigung | 600 |
+| 12 | QEC Erweitert | Surface-, Steane-, Shor-, BOSS-Codes | 650 |
+| 13 | IBM-Integration | Echtes QPU-Deployment | 1000 |
+
+### 2. Quantenfabrik
+
+| Funktion | Beschreibung |
+|----------|--------------|
+| **Schaltungsbauer** | Drag-and-Drop Quantenschaltungsdesign |
+| **One-Tap-Deployment** | Sofortiges Deployment über QuantumBridge |
+| **Echtzeit-Rauschen** | Harvard-MIT 2026 Rauschmodell-Visualisierung |
+| **Kontinuierlicher Modus** | 2+ Stunden kontinuierliche Betriebssimulation |
+
+### Zielgruppen
+
+| Typ | Kernbotschaft |
+|-----|---------------|
+| **Studenten** | FAANG-Beschäftigung, Portfolio-Differenzierung |
+| **Eltern** | Investition in die Zukunft der Kinder, Neuroplastizität |
+| **Entwickler** | Karriere-Upgrade, unersetzbare Fähigkeiten |
+| **SciFi-Fans** | Interstellar, Quantenwelt erleben |
+| **Investoren** | DeepTech verstehen, Startup-Bewertung |
 
 ---
 
@@ -153,94 +446,44 @@ Research news aggregation for quantum professionals:
 
 ```
 SwiftQuantumLearning/
-├── Models/
-│   ├── QuantumCircuit.swift        # Core circuit simulation (Harvard-MIT 2026)
-│   ├── AdvancedLessons.swift       # Level 9-13 premium content
-│   ├── UserProgress.swift          # XP and achievement tracking
-│   ├── Subscription.swift          # Tier management (Basic/Pro/Enterprise)
-│   ├── Achievement.swift           # Achievement system
-│   ├── AuthModels.swift            # Authentication data models
-│   ├── LearningLevel.swift         # Learning level definitions
-│   ├── LearningTrack.swift         # Learning track configuration
-│   ├── PracticeItem.swift          # Practice exercises
-│   └── QubitState.swift            # Qubit state representation
-├── Views/
-│   ├── MainTabView.swift           # Primary navigation (Home/Learn/Factory/Explore/Profile)
-│   ├── Auth/
-│   │   └── AuthenticationView.swift
-│   ├── Home/
-│   │   └── HomeView.swift
-│   ├── Learn/
-│   │   ├── LearnView.swift
-│   │   ├── LevelDetailView.swift
-│   │   ├── AdvancedLessonView.swift
-│   │   ├── LearningStrategyView.swift
-│   │   └── QuantumCurriculumContent.swift
-│   ├── QuantumFactory/             # Circuit builder & deployment
-│   │   ├── QuantumFactoryView.swift
-│   │   ├── NoiseVisualizationView.swift
-│   │   ├── BridgeMarketplaceView.swift    # Hardware queue with Miami night theme
-│   │   └── HarvardMITDigitalTwinView.swift # 3D atom replenishment
-│   ├── Practice/
-│   │   ├── PracticeView.swift
-│   │   ├── ChallengesView.swift
-│   │   ├── ExamplesGridView.swift
-│   │   ├── InteractiveDemoView.swift
-│   │   └── Examples/
-│   │       ├── QuantumGatesExample.swift
-│   │       ├── DeutschJozsaExample.swift
-│   │       ├── RandomNumberExample.swift
-│   │       └── ApplicationsExample.swift
-│   ├── Explore/
-│   │   ├── ExploreView.swift
-│   │   ├── ConceptDetailView.swift
-│   │   └── RelatedContentView.swift
-│   ├── Profile/
-│   │   ├── ProfileView.swift
-│   │   ├── SettingsView.swift
-│   │   ├── AchievementsView.swift
-│   │   ├── UserStatsView.swift
-│   │   └── GlobalContributionView.swift   # O1 visa evidence dashboard
-│   ├── Premium/
-│   │   └── PremiumUpgradeView.swift       # Monetization UI with Agentic AI
-│   ├── Subscription/
-│   │   └── PaywallView.swift
-│   ├── Research/
-│   │   └── QuantumResearchNewsView.swift  # Quantum Bloomberg Terminal
-│   └── Components/
-│       ├── ProgressRing.swift
-│       ├── StreakCounter.swift
-│       ├── XPDisplay.swift
-│       ├── TabBarView.swift
-│       ├── FilterChip.swift
-│       ├── LevelCard.swift
-│       └── CustomButton.swift
-├── ViewModels/
-│   ├── HomeViewModel.swift
-│   ├── LearnViewModel.swift
-│   ├── PracticeViewModel.swift
-│   ├── ExploreViewModel.swift
-│   ├── ProfileViewModel.swift
-│   ├── AuthViewModel.swift
-│   ├── AchievementViewModel.swift
-│   └── ProgressViewModel.swift
-├── Services/
-│   ├── QuantumBridgeService.swift  # Cloud integration
-│   ├── AgenticUpsellEngine.swift   # AI-based upgrade recommendations
-│   ├── AuthService.swift           # Authentication
-│   ├── APIClient.swift             # Backend API
-│   ├── StoreKitService.swift       # In-app purchases
-│   ├── LearningService.swift       # Learning progress
-│   ├── ProgressService.swift       # User progress tracking
-│   ├── AchievementService.swift    # Achievement system
-│   ├── StorageService.swift        # Local storage
-│   └── KeychainService.swift       # Secure storage
-├── Persistence/
-│   └── SubscriptionManager.swift   # Subscription state management
+├── Models/                    # 10 Data Models
+│   ├── QuantumCircuit.swift          # Core simulation engine
+│   ├── Subscription.swift            # StoreKit 2 integration
+│   ├── UserProgress.swift            # XP & achievement tracking
+│   ├── AuthModels.swift              # Authentication models
+│   ├── AdvancedLessons.swift         # Level 9-13 content
+│   ├── Achievement.swift             # Badge system
+│   ├── LearningTrack.swift           # Curriculum data
+│   ├── PracticeItem.swift            # Practice problems
+│   ├── QubitState.swift              # Quantum state representation
+│   └── LearningLevel.swift           # Level metadata
+├── Views/                     # 30+ SwiftUI Views
+│   ├── MainTabView.swift             # 4-tab navigation
+│   ├── Odyssey/                      # Main frames
+│   │   ├── CampusHubView.swift       # Level 1-13 roadmap
+│   │   ├── InteractiveOdysseyView.swift  # Lab frame
+│   │   ├── GlobalBridgeConsoleView.swift # IBM QPU comparison
+│   │   └── ExpertiseEvidenceDashboardView.swift  # Portfolio
+│   ├── QuantumFactory/               # Circuit development
+│   ├── Learn/                        # Curriculum
+│   ├── Practice/                     # Interactive learning
+│   ├── Explore/                      # Concept browser
+│   ├── Profile/                      # User dashboard
+│   ├── Premium/                      # Upsell views
+│   ├── Subscription/                 # Paywall
+│   └── Research/                     # Quantum Bloomberg
+├── ViewModels/               # 8 ViewModels (MVVM)
+├── Services/                 # 11 Services
+│   ├── QuantumBridgeService.swift   # Cloud integration
+│   ├── StoreKitService.swift        # In-app purchases
+│   ├── AuthService.swift            # Authentication
+│   ├── AgenticUpsellEngine.swift    # AI upsell
+│   ├── QuantumTranslationManager.swift  # Multilingual + Solar Agent
+│   └── ...
 ├── Design/
-│   ├── QuantumTheme.swift          # Premium UI/UX system
-│   └── Extensions.swift            # SwiftUI extensions
-└── SwiftQuantumApp.swift           # App entry point
+│   ├── QuantumTheme.swift           # Design tokens
+│   └── Extensions.swift
+└── SwiftQuantumApp.swift            # App entry point
 ```
 
 ### Quantum Simulation Engine
@@ -254,6 +497,12 @@ struct NoiseModel {
     var atomLossRate: Double = 0.00005   // Core innovation
     var continuousOperationCorrection: Double = 0.98
 }
+
+// Supported Gates
+enum QuantumGate {
+    case hadamard, pauliX, pauliY, pauliZ
+    case phase, t, cnot, swap, toffoli
+}
 ```
 
 ### Error Correction Codes
@@ -266,171 +515,71 @@ struct NoiseModel {
 
 ---
 
-## Revenue Projections
+## Design System
 
-### Conservative Model (10% Conversion)
+### Brand Palette
 
-| Quarter | DAU | Subscribers | MRR | Milestone |
-|---------|-----|-------------|-----|-----------|
-| Q1 2026 | 500 | 35 | $350 | Beta launch |
-| Q2 2026 | 1,200 | 85 | $750 | IEEE presentation |
-| Q3 2026 | 2,500 | 180 | $1,800 | App Store feature |
-| Q4 2026 | 4,000 | 280 | $2,800 | Holiday growth |
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Quantum Cyan | `#00CCFF` | Primary accent |
+| Quantum Purple | `#9966FF` | Secondary accent |
+| Quantum Orange | `#FF9933` | Tertiary accent |
+| Quantum Green | `#33E699` | Success |
+| Quantum Yellow | `#FFFF33` | In-progress |
+| Quantum Red | `#FF4D4D` | Error |
 
-**Projected 2026 ARR: $15,000+** with premium tier adoption
+### Miami Sunrise (Fire Theme)
 
-### Monetization Psychology
-
-1. **Anchoring Effect**: Show free simulation next to premium hardware speed
-2. **Loss Aversion**: "Don't miss the quantum advantage era" messaging
-3. **Decoy Effect**: Pro tier as most attractive choice
-4. **Agentic AI**: Personalized upgrade recommendations based on learning progress
-
----
-
-## Installation
-
-### Requirements
-- iOS 16.0+ / macOS 13.0+
-- Xcode 15.0+
-- Swift 5.9+
-
-### Setup
-```bash
-git clone https://github.com/swiftquantum/SwiftQuantumLearning.git
-cd SwiftQuantumLearning
-open SwiftQuantumLearning.xcodeproj
-```
-
-### Configuration
-1. Configure QuantumBridge API key in Settings
-2. (Enterprise) Add IBM Quantum API token
-3. Select subscription tier
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Miami Sunrise | `#FF7659` | Warm coral |
+| Miami Glow | `#FFB366` | Golden glow |
+| Solar Gold | `#FFD700` | Pure gold |
+| Fire Red | `#E64028` | Fire energy |
+| Deep Sea | `#0A0F26` | Dark background |
 
 ---
 
-## Usage Examples
+## Version History
 
-### Creating a Bell State
-
-```swift
-let circuit = QuantumCircuit(
-    name: "Bell State",
-    qubitCount: 2,
-    operationMode: .continuous
-)
-
-// Create |Φ+⟩ Bell state
-circuit.addGate(.hadamard, target: 0)
-circuit.addGate(.cnot, target: 1, control: 0)
-
-await circuit.execute()
-// Result: 50% |00⟩, 50% |11⟩ (perfect entanglement)
-```
-
-### Deploying to QuantumBridge
-
-```swift
-let bridgeService = QuantumBridgeService.shared
-let job = try await bridgeService.submitCircuit(circuit, tier: .pro)
-
-// Monitor real-time noise (Harvard-MIT visualization)
-bridgeService.startNoiseMonitoring(for: job)
-```
-
-### Grover's Search Algorithm
-
-```swift
-// O(√N) quantum search for 4-item database
-let circuit = QuantumCircuit(qubitCount: 2, operationMode: .continuous)
-
-// Initial superposition
-circuit.addGate(.hadamard, target: 0)
-circuit.addGate(.hadamard, target: 1)
-
-// Grover iteration (optimal for N=4)
-groverOracle(circuit)      // Mark solution |11⟩
-diffusionOperator(circuit) // Amplify marked state
-
-await circuit.execute()
-// ~100% probability of measuring |11⟩
-```
-
----
-
-## Achievement & Recognition
-
-- **2024 Seoul Open Data Forum Winner** - Government innovation recognition
-- **IEEE Quantum Week 2026** - Paper presentation scheduled
-- **100+ Beta Testers** - 4.8/5 average rating
-- **85% Completion Rate** - vs. 40% industry average
-
----
-
-## Research Foundation
-
-This application implements peer-reviewed research:
-
-1. **Harvard-MIT Continuous Operation** (Nature, Jan 2026)
-   - 3,000 qubit neutral atom array
-   - 2+ hours continuous operation
-   - Optical lattice conveyor belt atom replenishment
-
-2. **Fault-Tolerant Architecture**
-   - 96 logical qubit demonstration
-   - Surface code implementation
-   - < 0.1% logical error rate
-
----
-
-## Roadmap
-
-| Phase | Timeline | Focus |
-|-------|----------|-------|
-| **2026 Q1** | Launch | Premium platform release |
-| **2026 Q2** | Integration | IBM Quantum full integration |
-| **2026 Q3** | Expansion | Japanese/Mandarin localization |
-| **2026 Q4** | Enterprise | Corporate training partnerships |
-| **2027+** | Scale | AI tutoring, custom hardware |
+| Version | Date | Changes |
+|---------|------|---------|
+| 2.0.0 | 2026.01 | The Quantum Odyssey 4-frame platform, 5 languages |
+| 1.5.0 | 2025.12 | Harvard-MIT 2026 integration |
+| 1.0.0 | 2025.10 | Initial release |
 
 ---
 
 ## Contributing
 
-We welcome contributions:
-- Algorithm implementations
-- Visualization improvements
-- Hardware backend integrations
-- Localization (translations)
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
 
 ---
 
 ## License
 
-Copyright 2026 SwiftQuantum Team. All rights reserved.
+Copyright 2025-2026 SwiftQuantum Team. All rights reserved.
 MIT License - See [LICENSE](LICENSE)
 
 ---
 
 ## Contact
 
-- **Documentation**: [docs.swiftquantum.io](https://docs.swiftquantum.io)
-- **Issues**: [GitHub Issues](https://github.com/swiftquantum/SwiftQuantumLearning/issues)
+- **Website**: [swiftquantum.app](https://swiftquantum.app)
+- **Email**: support@swiftquantum.app
 - **Enterprise**: enterprise@swiftquantum.io
 
 ---
 
 <div align="center">
 
-**SwiftQuantumLearning**
+**SwiftQuantum Learning**
 *Where quantum education meets real-world deployment*
 
-Built with **SwiftQuantum** & **QuantumBridge**
-
-*Based on Harvard-MIT 2026 Research*
-
-[Back to Top](#swiftquantumlearning)
+Built with **SwiftUI** | Powered by **Harvard-MIT 2026 Research** | Real **IBM QPU** Integration
 
 </div>
