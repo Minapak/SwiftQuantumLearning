@@ -1,4 +1,4 @@
-# SwiftQuantum Learning
+# QuantumAcademy
 
 ## The Quantum Odyssey - 2026 Premium Quantum Education Platform
 
@@ -24,7 +24,7 @@ The world's first mobile quantum simulator based on **Harvard-MIT 2026 research*
 
 ## Overview
 
-SwiftQuantum Learning is a **premium education platform** that provides everything you need to become a quantum engineer—from quantum computing theory to actual IBM QPU deployment.
+QuantumAcademy is a **premium education platform** that provides everything you need to become a quantum engineer—from quantum computing theory to actual IBM QPU deployment.
 
 ### Research Foundation (Nature, January 2026)
 
@@ -139,11 +139,11 @@ The app supports **5 languages**, each using **natural, localized expressions** 
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/SwiftQuantumLearning.git
+git clone https://github.com/your-org/QuantumAcademy.git
 
 # Open in Xcode
-cd SwiftQuantumLearning
-open SwiftQuantumLearning.xcodeproj
+cd QuantumAcademy
+open QuantumAcademy.xcodeproj
 
 # Build and Run (Cmd+R)
 ```
@@ -156,7 +156,7 @@ open SwiftQuantumLearning.xcodeproj
 
 ## 개요
 
-SwiftQuantum Learning은 양자 컴퓨팅 이론 학습부터 실제 IBM QPU 배포까지, 양자 엔지니어가 되기 위한 모든 것을 제공하는 **프리미엄 교육 플랫폼**입니다.
+QuantumAcademy는 양자 컴퓨팅 이론 학습부터 실제 IBM QPU 배포까지, 양자 엔지니어가 되기 위한 모든 것을 제공하는 **프리미엄 교육 플랫폼**입니다.
 
 ### 연구 기반 (Nature, 2026년 1월)
 
@@ -235,7 +235,7 @@ Harvard-MIT 공동 연구팀의 획기적 성과 기반:
 
 ## 概要
 
-SwiftQuantum Learningは、量子コンピューティング理論の学習から実際のIBM QPUデプロイまで、量子エンジニアになるために必要なすべてを提供する**プレミアム教育プラットフォーム**です。
+QuantumAcademyは、量子コンピューティング理論の学習から実際のIBM QPUデプロイまで、量子エンジニアになるために必要なすべてを提供する**プレミアム教育プラットフォーム**です。
 
 ### 研究基盤（Nature、2026年1月）
 
@@ -306,7 +306,7 @@ SwiftQuantum Learningは、量子コンピューティング理論の学習か�
 
 ## 概述
 
-SwiftQuantum Learning是一个**高端教育平台**，从量子计算理论学习到实际IBM QPU部署，为成为量子工程师提供所需的一切。
+QuantumAcademy是一个**高端教育平台**，从量子计算理论学习到实际IBM QPU部署，为成为量子工程师提供所需的一切。
 
 ### 研究基础（Nature，2026年1月）
 
@@ -377,7 +377,7 @@ Der weltweit erste mobile Quantensimulator basierend auf **Harvard-MIT 2026 Fors
 
 ## Überblick
 
-SwiftQuantum Learning ist eine **Premium-Bildungsplattform**, die alles bietet, was Sie brauchen, um Quanteningenieur zu werden — von der Quantencomputing-Theorie bis zum tatsächlichen IBM QPU-Deployment.
+QuantumAcademy ist eine **Premium-Bildungsplattform**, die alles bietet, was Sie brauchen, um Quanteningenieur zu werden — von der Quantencomputing-Theorie bis zum tatsächlichen IBM QPU-Deployment.
 
 ### Forschungsgrundlage (Nature, Januar 2026)
 
@@ -445,7 +445,7 @@ Basierend auf bahnbrechenden Errungenschaften des Harvard-MIT Forschungsteams:
 ## Technical Architecture
 
 ```
-SwiftQuantumLearning/
+QuantumAcademy/
 ├── Models/                    # 10 Data Models
 │   ├── QuantumCircuit.swift          # Core simulation engine
 │   ├── Subscription.swift            # StoreKit 2 integration
@@ -483,7 +483,7 @@ SwiftQuantumLearning/
 ├── Design/
 │   ├── QuantumTheme.swift           # Design tokens
 │   └── Extensions.swift
-└── SwiftQuantumApp.swift            # App entry point
+└── QuantumAcademyApp.swift          # App entry point
 ```
 
 ### Quantum Simulation Engine
@@ -585,7 +585,7 @@ enum QuantumGate {
 ### Admin Credentials (Development)
 
 ```
-Email: admin@swiftquantum.io
+Email: admin@quantumacademy.io
 Password: QuantumAdmin2026!
 ```
 
@@ -616,7 +616,7 @@ In DEBUG builds, all premium features are automatically unlocked:
 ### Key File Connections
 
 ```
-SwiftQuantumApp.swift
+QuantumAcademyApp.swift
     |-- MainTabView.swift (4-Frame Navigation)
         |-- CampusHubView.swift (Tab 1: 13 Levels)
         |   |-- LevelDetailView.swift
@@ -661,22 +661,22 @@ SwiftQuantumApp.swift
 
 ## License
 
-Copyright 2025-2026 SwiftQuantum Team. All rights reserved.
+Copyright 2025-2026 QuantumAcademy Team. All rights reserved.
 MIT License - See [LICENSE](LICENSE)
 
 ---
 
 ## Contact
 
-- **Website**: [swiftquantum.app](https://swiftquantum.app)
-- **Email**: support@swiftquantum.app
-- **Enterprise**: enterprise@swiftquantum.io
+- **Website**: [quantumacademy.app](https://quantumacademy.app)
+- **Email**: support@quantumacademy.app
+- **Enterprise**: enterprise@quantumacademy.io
 
 ---
 
 <div align="center">
 
-**SwiftQuantum Learning**
+**QuantumAcademy**
 *Where quantum education meets real-world deployment*
 
 Built with **SwiftUI** | Powered by **Harvard-MIT 2026 Research** | Real **IBM QPU** Integration
